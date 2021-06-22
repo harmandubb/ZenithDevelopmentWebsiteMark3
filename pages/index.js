@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import Main from '../components/Main_Carousel'
 import Swiper from '../components/Main_Carousel'
 
-import Nav from '../components/Nav'
+import Nav from '../components/nav'
 
 
 export default function Home() {
