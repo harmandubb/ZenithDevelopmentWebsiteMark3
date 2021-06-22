@@ -6,7 +6,6 @@ import Footer from '../components/Footer'
 //import Swiper from '../components/Res_Carousel'
 import { useState } from 'react'
 import { Switch } from '@headlessui/react'
-import { Switch } from '@headlessui/react'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
