@@ -11,14 +11,14 @@ export default function Projects() {
 
     <Nav />
 
-    <div class="container mx-auto p-20">
+    <div class="container mx-auto sm:p-20 p-4">
         <div class="justify-center">
                 <div
                     class="sticky top-32 sm:top-28 md:top-36 lg:top-32 mt-8 pt-2 pb-2 z-10 text-white text-center text-3xl font-bold bg-gray-900 rounded-lg">
                     Ongoing
                 </div>
 
-                <div class = "flex flex-col md:flex-row mt-8 md:mt-12 lg:mt-8">
+                <div class = "flex flex-col md:flex-row  sm:mt-4 md:mt-12 lg:mt-8 mt-24">
                     <div class = "">
                         <img class = "object-contain rounded-lg max-h-96" src = "/img/82_KingGeorge_Exterior.jpg"></img>
                     </div>
