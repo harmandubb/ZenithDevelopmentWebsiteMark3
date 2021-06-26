@@ -11,14 +11,14 @@ export default function Projects() {
 
     <Nav />
 
-    <div class="container mx-auto sm:p-20 p-4">
+    <div class="container mx-auto lg:p-20 md:p-12 sm:p-8 p-2">
         <div class="justify-center">
                 <div
                     class="sticky top-32 sm:top-28 md:top-36 lg:top-32 mt-8 pt-2 pb-2 z-10 text-white text-center text-3xl font-bold bg-gray-900 rounded-lg">
                     Ongoing
                 </div>
 
-                <div class = "flex flex-col md:flex-row  sm:mt-4 md:mt-12 lg:mt-8 mt-24">
+                <div class = "flex flex-col md:flex-row sm:mt-16 md:mt-20 lg:mt-8 mt-28">
                     <div class = "">
                         <img class = "object-contain rounded-lg max-h-96" src = "/img/82_KingGeorge_Exterior.jpg"></img>
                     </div>
@@ -40,9 +40,9 @@ export default function Projects() {
                                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
 
-                                <span>
+                                <div>
                                     King George Boulevard and 82nd Ave Surrey
-                                </span>
+                                </div>
 
                             </div>
                             <div class="flex ml-2 mt-1 text-black">
