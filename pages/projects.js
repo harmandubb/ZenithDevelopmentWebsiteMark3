@@ -25,7 +25,7 @@ export default function Projects() {
 
                         <div class="ml-0 md:ml-2 xl:ml-4">
                             <div class="text-black">
-                                <h1 class="text-black text-3xl -mt-2 p-2 font-bold">
+                                <h1 class="text-black text-3xl sm:-mt-2 p-2 font-bold">
                                     Crest Lane
                                 </h1>
                                 <p class="flex ml-2 mt-1 text-black font-semibold">
@@ -103,7 +103,7 @@ export default function Projects() {
 
                     <div class="ml-0 md:ml-2 xl:ml-4">
                         <div class="text-black">
-                            <h1 class="text-black text-3xl -mt-2 p-2 font-bold">
+                            <h1 class="text-black text-3xl sm:-mt-2 p-2 font-bold">
                                 Elgin Park
                             </h1>
                             <p class="flex ml-2 mt-1 text-black font-semibold">
