@@ -28,7 +28,7 @@ export default function Projects() {
                                 <h1 class="text-black text-3xl sm:-mt-2 p-2 font-bold">
                                     Crest Lane
                                 </h1>
-                                <p class="flex ml-2 mt-1 text-black font-semibold">
+                                <p class="flex ml-2 text-black font-semibold">
                                     Bringing modern and affordable residential units to Surrey
                                 </p>
                                 <div class="flex ml-2 mt-1 text-black">
@@ -106,7 +106,7 @@ export default function Projects() {
                             <h1 class="text-black text-3xl sm:-mt-2 p-2 font-bold">
                                 Elgin Park
                             </h1>
-                            <p class="flex ml-2 mt-1 text-black font-semibold">
+                            <p class="flex ml-2 text-black font-semibold">
                                 Developing modern commercial buildings in South Surrey
                             </p>
                             <div class="flex ml-2 mt-1 text-black">
