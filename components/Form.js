@@ -34,14 +34,14 @@ const Form = () => {
 
     return (
         <>
-            <div class="pt-8 px-20">
+            <div class="md:pt-8 px-4">
                 <form onSubmit={register} id="preregForm">
 
 
                     <section class="text-gray-700 ">
-                        <div class="container px-8 pb-2 mx-auto lg:px-4">
+                        <div class="container pb-2 mx-auto lg:px-4">
                             <div
-                                class="flex flex-col w-full p-8 mx-auto mt-10 border rounded-lg lg:w-2/6 md:w-1/2 md:ml-auto md:mt-0">
+                                class="flex flex-col w-full p-8 mx-auto mt-10 border rounded-lg lg:w-3/4 md:ml-auto md:mt-0">
                                 <div class="relative ">
                                     <label htmlFor="Name" class="text-sm leading-7 text-gray-600">Your name</label>
                                     <input type="Name" id="Name" name="Name" placeholder="Name"
@@ -69,7 +69,7 @@ const Form = () => {
                                         class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></textarea>
                                 </div>
                                 <button
-                                    class="inline-flex w-full px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Pre-Register
+                                    class="inline-flex lg:w-1/4 md:w-1/4 w-full px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Pre-Register
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" class="w-4 h-4 my-auto ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>

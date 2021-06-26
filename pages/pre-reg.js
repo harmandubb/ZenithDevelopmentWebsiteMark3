@@ -16,7 +16,7 @@ export default function Pre_Reg() {
 
     <div class = "w-screen">
 
-    <section class="mt-28 text-gray-700 body-font">
+    <section class="lg:mt-28 mt-32 text-gray-700 body-font">
         <div class = 'text-gray-900'>
             <p class="text-4xl font-bold tracking-tighter text-center text-blue-800  lg:text-5xl title-font">
                 Hi! Ready to Pre-Register for a viewing?
