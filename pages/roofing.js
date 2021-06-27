@@ -42,13 +42,13 @@ export default function Roofing() {
 
 
         <section class="text-gray-700 ">
-            <div class="container flex flex-col items-start px-5 md:py-8 py-2 mx-auto lg:items-center md:flex-row lg:px-28">
+            <div class="container flex flex-col items-start px-5 md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-28">
                 <div class="w-full mb-4 lg:w-5/6 lg:max-w-lg md:w-1/2">
                     <img class="hidden md:block object-cover object-center rounded" alt="hero"
                         src="https://dummyimage.com/720x600/F3F4F7/8693ac"></img>
                 </div>
                 <div class="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
-                    <h1 class="mb-8 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                    <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
                         Commerical, residential or strata properties
                         <br></br>
                         We do it all.</h1>
