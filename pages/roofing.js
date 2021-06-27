@@ -20,8 +20,8 @@ export default function Roofing() {
                 <div class="container px-8 py-48 mx-auto lg:px-4" >
                     <div class="flex flex-col w-full mb-12 text-left lg:text-center">
                         <h2 class="z-10 mb-1 text-xs font-semibold tracking-widest text-white uppercase title-font"></h2>
-                        <h1 class="z-10 mb-6 text-2xl font-semibold tracking-tighter text-white sm:text-5xl title-font">Installing quality roofs in the Greater Vancouver area since 1994</h1>
-                        <p class="z-10 font-semibold justify-center mx-auto md:text-lg text-sm font-medium leading-relaxed text-white lg:w-2/3"> Contact us or sign up below for a quote</p>
+                        <h1 class="z-10 mb-6 text-3xl font-semibold tracking-tighter text-white sm:text-5xl title-font">Installing quality roofs in the Greater Vancouver area since 1994</h1>
+                        <p class="z-10 font-semibold justify-center mx-auto md:text-lg text-md font-medium leading-relaxed text-white lg:w-2/3"> Contact us or sign up below for a quote</p>
 
 
                     </div>
