@@ -42,7 +42,7 @@ export default function Roofing() {
 
 
         <section class="text-gray-700 ">
-            <div class="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
+            <div class="container flex flex-col items-start px-5 md:py-8 py-2 mx-auto lg:items-center md:flex-row lg:px-28">
                 <div class="w-full mb-4 lg:w-5/6 lg:max-w-lg md:w-1/2">
                     <img class="hidden md:block object-cover object-center rounded" alt="hero"
                         src="https://dummyimage.com/720x600/F3F4F7/8693ac"></img>
