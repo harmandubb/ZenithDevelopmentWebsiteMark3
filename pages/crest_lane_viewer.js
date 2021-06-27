@@ -373,7 +373,7 @@ export default function Crest_Lane_Viewer() {
                             Crest Lane
                     </h1>
 
-                        <p class="font-bold text-1xl text-gray-400 mt-3">
+                        <p class="font-bold text-1xl text-gray-400 narrow:mt-3">
                             modern condos and townhomes
                     </p>
 
