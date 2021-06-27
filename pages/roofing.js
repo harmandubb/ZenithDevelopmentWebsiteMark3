@@ -13,7 +13,7 @@ export default function Roofing() {
     <Nav />
 
     <section class="text-gray-700">
-        <div class="relative bg-cover mx-auto p-20" style ={{ backgroundImage: 'url(/img/Roof.jpg)'}}>
+        <div class="relative bg-cover mx-auto lg:p-20" style ={{ backgroundImage: 'url(/img/Roof.jpg)'}}>
             <div class = "absolute inset-0 bg-gray-900 bg-opacity-50"></div>
 
             <section class="text-gray-700 body-font object-contain">
