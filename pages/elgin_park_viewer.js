@@ -256,7 +256,7 @@ export default function Res_Viewer() {
 
                     <div class="flex ">
 
-                        <div class="ml-2">
+                        <div class="narrow:ml-2 ">
                             Set up a viewing:
                         </div>
 
