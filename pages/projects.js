@@ -75,10 +75,10 @@ export default function Projects() {
 
                                 <div class="flex ">
                                     <Link href="/crest_lane_viewer">
-                                        <button
+                                        <div
                                             class="mt-4 justify-center inline-flex w-full px-auto py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Explore
 
-                                        </button>
+                                        </div>
 
                                     </Link>
 
@@ -151,10 +151,10 @@ export default function Projects() {
 
                             <div class="flex ">
                                 <Link href="/elgin_park_viewer">
-                                    <button
+                                    <div
                                         class="mt-4 justify-center inline-flex w-full px-auto py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Explore
 
-                                    </button>
+                                    </div>
 
                                 </Link>
 

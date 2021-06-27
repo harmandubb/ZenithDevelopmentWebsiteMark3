@@ -229,7 +229,7 @@ export default function Res_Viewer() {
             </div>
 
             <div class="px-4 md:hidden">
-                <div className="py-2 flex justify-between border-b">
+                <div className="py-2 flex flex-col narrow:flex-row justify-between border-b">
                     <div class="flex">
 
 
