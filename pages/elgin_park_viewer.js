@@ -228,7 +228,7 @@ export default function Res_Viewer() {
 
             </div>
 
-            <div class="px-4 md:hidden">
+            <div class="px-4 md:hidden mx-auto narrow:mx-0">
                 <div className="py-2 flex flex-col flex-row justify-between border-b">
                     <div class="flex">
 
@@ -256,7 +256,7 @@ export default function Res_Viewer() {
 
                     <div class="flex ">
 
-                        <div class="ml-2 ">
+                        <div class="narrow:ml-2 narrow:mt-0 mt-2 ">
                             Set up a viewing:
                         </div>
 
