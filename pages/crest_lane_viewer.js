@@ -134,6 +134,7 @@ export default function Crest_Lane_Viewer() {
                 <div class="w-3/5">
                     <div class="py-6 xl:px-28 lg:px-20 md:px-12 sm:px-6 border-r">
                         <div class="flex lg:flex-row flex-col">
+
                             <h1 class="font-bold text-3xl xl:mb-2 mr-2">
                                 Crest Lane
                     </h1>
@@ -367,7 +368,7 @@ export default function Crest_Lane_Viewer() {
                 </div>
 
                 <div class="xl:px-28 lg:px-20 md:px-12 sm:px-6">
-                    <div class="flex flex-row">
+                    <div class="flex narrow:flex-row flex-col">
                         <h1 class="font-bold text-3xl xl:mb-2 mr-2">
                             Crest Lane
                     </h1>
