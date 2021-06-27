@@ -18,7 +18,7 @@ export default function Projects() {
                         Ongoing
                     </div>
 
-                    <div class="flex flex-col md:flex-row sm:mt-16 md:mt-20 lg:mt-8 mt-28">
+                    <div class="flex flex-col md:flex-row sm:mt-16 md:mt-20 lg:mt-8 mt-24">
                         <div class="">
                             <img class="object-contain rounded-lg max-h-96" src="/img/82_KingGeorge_Exterior.jpg"></img>
                         </div>

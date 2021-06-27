@@ -96,7 +96,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4 border-gray-300 border-b md:border-b-0">
-                            0 of 10 <br></br>  Units Sold
+                            0 of 10 <br></br>  units Sold
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
                             Restaurant, banquet hall, and retail
@@ -106,10 +106,10 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4">
-                            0 of 30 <br></br> Units sold
+                            0 of 30 <br></br> units sold
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
-                            Office and retail units
+                            Office and retail
                         </p>
                     </div>
 
@@ -339,10 +339,10 @@ export default function Res_Viewer() {
                                 </p>
 
                                 <p class="text-2xl font-bold border-gray-300">
-                                    0 of 72 <br></br> Condos sold
+                                    0 of 10 <br></br> units sold
                                 </p>
                                 <p class="text-gray-400 font-semibold">
-                                    Units starting at $400,000
+                                    Restaurant, banquet hall, and retail
                                 </p>
 
 
@@ -353,10 +353,10 @@ export default function Res_Viewer() {
                                     Phase B</p>
 
                                 <p class="text-2xl font-bold">
-                                    0 of 34 <br></br> Town-homes sold
+                                    0 of 30 <br></br> units sold
                                 </p>
                                 <p class=" text-gray-400 font-semibold">
-                                    Units starting at $1,100,000
+                                    Office and retail
                                 </p>
 
 
