@@ -29,7 +29,7 @@ const QuoteBlock = () => {
             toggle_quote_response(false);
         }
 
-        timedRefresh(5000);
+        
 
     }
 

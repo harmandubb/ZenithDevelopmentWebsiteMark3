@@ -36,7 +36,7 @@ const Form = () => {
             toggle_form_response(false);
         }
 
-        timedRefresh(5000);
+       
 
 
 
