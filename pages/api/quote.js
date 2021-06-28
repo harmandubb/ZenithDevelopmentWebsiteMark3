@@ -19,10 +19,11 @@ export default async function handler(req, res) {
     client.authorize(function (err, tokens) {
 
         if (err) {
-            console.log(err);
+            res.json({FormSucess: false});
+            res.json();
             return;
         } else {
-            console.log('Connected!');
+            res.json({FormSucess: true});
             gsrun(client, req.body.Name, req.body.Email);
         }
     });

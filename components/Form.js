@@ -27,7 +27,22 @@ const Form = () => {
             body: JSON.stringify(data)
         };
 
-        fetch('/api/form',options);
+
+        const response = await fetch('/api/form', options);
+
+        if (response.status == 200 ){
+            toggle_form_response(true);
+        } else{
+            toggle_form_response(false);
+        }
+
+        timedRefresh(5000);
+
+
+
+
+
+
 
     }
 
@@ -44,20 +59,20 @@ const Form = () => {
                                 class="flex flex-col w-full p-8 mx-auto mt-10 border rounded-lg lg:w-3/4 md:ml-auto md:mt-0">
                                 <div class="relative ">
                                     <label htmlFor="Name" class="text-sm leading-7 text-gray-600">Your name</label>
-                                    <input type="Name" id="Name" name="Name" placeholder="Name"
+                                    <input required type="Name" id="Name" name="Name" placeholder="Name"
                                         class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
                                 </div>
                                 <div class="relative ">
                                     <label htmlFor="Email" class="text-sm leading-7 text-gray-600">Email address</label>
-                                    <input type="Email" id="Email" name="Email" placeholder="Email"
+                                    <input required type="Email" id="Email" name="Email" placeholder="Email"
                                         class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
                                 </div>
                                 <div class="relative mb-4 ">
 
-                                    <label htmlFor="Project" id="Project" class="text-sm leading-7 text-gray-600">Project to Pre-register for:</label>
+                                    <label required htmlFor="Project" id="Project" class="text-sm leading-7 text-gray-600">Project to Pre-register for:</label>
                                     <select id="Project" name="Project"
                                         class="block w-full px-4 py-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                                        <option>Select an Option</option>
+                                        <option disabled = "disabled">Select an Option</option>
                                         <option value="Elgin Park">Elgin Park</option>
                                         <option value="King George">King George</option>
                                         <option value="North Vancouver">North Vancouver</option>
@@ -79,6 +94,12 @@ const Form = () => {
                         </div>
                     </section>
                 </form>
+                <div id="sucess" class="hidden text-center text-green-700 font-semibold">
+                    The pre-register form has sucessfully been submitted. We will contact you shortly. Thank you
+                </div>
+                <div id="fail" class="hidden text-center text-red-700 font-semibold">
+                    The pre-register form failed to submit. Please call our office to pre-register. Thank you
+                </div>
 
 
             </div>
@@ -91,3 +112,22 @@ const Form = () => {
 
 
 export default Form;
+
+function toggle_form_response(formStatus) {
+
+    const sucess = document.querySelector('#sucess');
+    const fail = document.querySelector('#fail');
+
+
+    if (formStatus == true) {
+        sucess.classList.remove('hidden');
+        fail.classList.add('fail');
+    } else {
+        fail.classList.remove('hidden');
+        sucess.classList.add('fail');
+    }
+}
+
+function timedRefresh(time){
+    setTimeout("location.reload(true)", time);
+}
