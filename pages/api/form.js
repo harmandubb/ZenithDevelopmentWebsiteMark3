@@ -15,17 +15,19 @@ export default async function handler(req, res) {
         SCOPES
     );
 
+
     //connecting the client to the google api
     client.authorize(function (err, tokens) {
 
 
         if (err) {
-            res.json({FormSucess: false});
+            res.json({ FormSucess: false });
             console.log(err);
             return;
         } else {
-            res.json({FormSucess: true});
+            res.json({ FormSucess: true });
             gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+            onsole.log("1: Connected");
         }
     });
 
@@ -40,6 +42,8 @@ export default async function handler(req, res) {
         //Data for spreadsheet information
         let inputArray = [[dateTime, Name, Email, Project, Message]];
 
+        console.log("The datasheet input:", inputArray);
+
         const updateOptions = {
             spreadsheetId: '1b1ZIA939iImXA2wjJsBIbhFR3OF3eaaQuZ8TQPxBDwA',
             range: 'Pre_Reg_Form!A2',
@@ -48,9 +52,12 @@ export default async function handler(req, res) {
             resource: { values: inputArray }
         };
 
+        console.log("Update Parameters:", updateOptions);
 
-        gsapi.spreadsheets.values.append(updateOptions);
 
+        const response = gsapi.spreadsheets.values.append(updateOptions);
+
+        console.log("The response:", response);
     }
 
 

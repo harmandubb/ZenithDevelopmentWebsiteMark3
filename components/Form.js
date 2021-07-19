@@ -19,6 +19,8 @@ const Form = () => {
             Message: formData.get('Message')
         };
 
+        console.log("Data Collected:", data);
+
         const options = {
             method: 'POST',
             headers: {
@@ -30,13 +32,15 @@ const Form = () => {
 
         const response = await fetch('/api/form', options);
 
+        console.log("Response:", response);
+
         if (response.status == 200 ){
             toggle_form_response(true);
         } else{
             toggle_form_response(false);
         }
 
-       
+
 
 
 
