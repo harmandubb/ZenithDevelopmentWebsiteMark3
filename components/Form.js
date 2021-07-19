@@ -24,9 +24,11 @@ const Form = () => {
         const options = {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': 'https://zenith-development-website-mark3.vercel.app/'
             },
-            body: JSON.stringify(data)
+            body: JSON.stringify(data),
+
         };
 
 
@@ -34,9 +36,9 @@ const Form = () => {
 
         console.log("Response:", response);
 
-        if (response.status == 200 ){
+        if (response.status == 200) {
             toggle_form_response(true);
-        } else{
+        } else {
             toggle_form_response(false);
         }
 
@@ -76,7 +78,7 @@ const Form = () => {
                                     <label required htmlFor="Project" id="Project" class="text-sm leading-7 text-gray-600">Project to Pre-register for:</label>
                                     <select id="Project" name="Project"
                                         class="block w-full px-4 py-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                                        <option disabled = "disabled">Select an Option</option>
+                                        <option disabled="disabled">Select an Option</option>
                                         <option value="Elgin Park">Elgin Park</option>
                                         <option value="King George">King George</option>
                                         <option value="North Vancouver">North Vancouver</option>
@@ -132,6 +134,6 @@ function toggle_form_response(formStatus) {
     }
 }
 
-function timedRefresh(time){
+function timedRefresh(time) {
     setTimeout("location.reload(true)", time);
 }
