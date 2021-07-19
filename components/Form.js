@@ -35,9 +35,9 @@ const Form = () => {
 
 
         const response = await fetch('/api/form', options)
-            .then(function(){
-                console.log("ok");
-            }).catch(function(){
+            .then(function () {
+                console.log("ok fetch has worked");
+            }).catch(function () {
                 console.log("error");
             });
 
