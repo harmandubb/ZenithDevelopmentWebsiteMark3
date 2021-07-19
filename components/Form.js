@@ -34,7 +34,12 @@ const Form = () => {
         console.log("Options being used for the POST:", options);
 
 
-        const response = await fetch('/api/form', options);
+        const response = await fetch('/api/form', options)
+            .then(function(){
+                console.log("ok");
+            }).catch(function(){
+                console.log("error");
+            });
 
         console.log("Response:", response);
 

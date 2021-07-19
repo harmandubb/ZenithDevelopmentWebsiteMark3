@@ -5,9 +5,11 @@ const today = new Date();
 
 
 export default async function handler(req, res) {
+    console.log("Getting to the start of the API function");
+
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 
-
+    console.log("Set the scope");
     const client = new google.auth.JWT(
         keys.client_email,
         null,
@@ -16,9 +18,12 @@ export default async function handler(req, res) {
     );
 
 
+
     //connecting the client to the google api
     client.authorize(function (err, tokens) {
 
+
+        console.log("authenticated the google sheets api");
 
         if (err) {
             res.json({ FormSucess: false });
