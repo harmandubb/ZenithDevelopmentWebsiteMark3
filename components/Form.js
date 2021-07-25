@@ -24,8 +24,9 @@ const Form = () => {
         const options = {
             method: 'POST',
             headers: {
-                //'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': 'https://zenith-development-website-mark3.vercel.app/'
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': 'https://zenith-development-website-mark3.vercel.app/',
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify(data),
 
@@ -34,16 +35,17 @@ const Form = () => {
         console.log("Options being used for the POST:", options);
 
 
-        const response = await fetch('/api/form', options);
-
-        console.log("Response:", response);
-
-        if (response.status == 200) {
-            toggle_form_response(true);
-        } else {
-            toggle_form_response(false);
-        }
-
+        fetch('/api/form', options)
+            .then((response) => {
+                console.log("Fetch was sucessful:", response);
+                if (response.status == 200) {
+                    toggle_form_response(true);
+                } else {
+                    toggle_form_response(false);
+                }
+            })
+            .catch((err) =>
+                console.log("Fetch returned an error:", err));
 
 
 

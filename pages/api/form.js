@@ -17,6 +17,8 @@ export default async function handler(req, res) {
         SCOPES
     );
 
+    console.log("right before authentication")
+
 
 
     //connecting the client to the google api
@@ -24,6 +26,7 @@ export default async function handler(req, res) {
 
 
         console.log("authenticated the google sheets api");
+        console.log(req.body.Name);
 
         if (err) {
             res.json({ FormSucess: false });
