@@ -35,7 +35,7 @@ export default async function handler(req, res) {
         } else {
             res.json({ FormSucess: true });
             gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-            onsole.log("1: Connected");
+            console.log("1: Connected");
         }
     });
 
