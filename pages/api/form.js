@@ -65,9 +65,11 @@ export default async function handler(req, res) {
 
         await gsapi.spreadsheets.values.append(updateOptions)
             .then((response) => {
+                console.log("Infromation has been sent out:")
                 console.log("The response:", response);
             })
             .catch((err) => {
+                console.log("The infromation has not been sent out")
                 console.log("The following error has occured", err)
             });
 
