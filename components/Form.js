@@ -19,8 +19,6 @@ const Form = () => {
             Message: formData.get('Message')
         };
 
-        console.log("Data Collected:", data);
-
         const options = {
             method: 'POST',
             headers: {
