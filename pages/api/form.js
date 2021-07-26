@@ -63,9 +63,15 @@ export default async function handler(req, res) {
         console.log("Update Parameters:", updateOptions);
 
 
-        const response = gsapi.spreadsheets.values.append(updateOptions);
+        await gsapi.spreadsheets.values.append(updateOptions)
+            .then((response) => {
+                console.log("The response:", response);
+            })
+            .catch((err) => {
+                console.log("The following error has occured", err)
+            });
 
-        console.log("The response:", response);
+
     }
 
 
