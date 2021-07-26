@@ -25,9 +25,7 @@ const Form = () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                // 'Access-Control-Allow-Origin': 'https://zenith-development-website-mark3.vercel.app/',
-                'Access-Control-Allow-Origin': '*/',
-                'Content-Type': 'application/json'
+                'Access-Control-Allow-Origin': 'https://zenith-development-website-mark3.vercel.app/'
             },
             body: JSON.stringify(data),
 
