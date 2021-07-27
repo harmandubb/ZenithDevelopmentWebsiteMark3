@@ -5,11 +5,10 @@ const today = new Date();
 
 
 export default async function handler(req, res) {
-    console.log("Getting to the start of the API function");
+
 
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 
-    console.log("Set the scope");
     const client = new google.auth.JWT(
         keys.client_email,
         null,
@@ -17,7 +16,7 @@ export default async function handler(req, res) {
         SCOPES
     );
 
-    console.log("right before authentication")
+
 
 
 
@@ -25,8 +24,6 @@ export default async function handler(req, res) {
     client.authorize(function (err, tokens) {
 
 
-        console.log("authenticated the google sheets api");
-        console.log(req.body.Name);
 
         if (err) {
             res.json({ FormSucess: false });
@@ -65,6 +62,8 @@ export default async function handler(req, res) {
 
         let res = await gsapi.spreadsheets.values.append(updateOptions);
         let jres = await res.json();
+
+        console.log("After the spreadsheet has been updated")
 
         console.log(jres);
 
