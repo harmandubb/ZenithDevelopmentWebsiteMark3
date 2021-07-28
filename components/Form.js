@@ -32,7 +32,7 @@ const Form = () => {
         console.log("Options being used for the POST:", options);
 
 
-        await fetch('/api/form', options)
+        fetch('/api/form', options)
             .then((response) => {
                 console.log("Fetch was sucessful:", response);
                 if (response.status == 200) {

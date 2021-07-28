@@ -62,17 +62,17 @@ export default async function handler(req, res) {
         console.log("UpdateOptions have been set!")
 
 
-        return gsapi.spreadsheets.values.append(updateOptions);
-        // .then((res) => {
-        //     console.log("Information has been sent out:")
-        //     console.log("The response:", res.result);
-        // })
-        // .catch((err) => {
-        //     console.log("The information has not been sent out")
-        //     console.error("The following error has occured", err)
-        // });
+        gsapi.spreadsheets.values.append(updateOptions)
+            .then((res) => {
+                console.log("Information has been sent out:")
+                console.log("The response:", res.result);
+            })
+            .catch((err) => {
+                console.log("The information has not been sent out")
+                console.error("The following error has occured", err)
+            });
 
-        // console.log("Ended the api call to google now")
+            console.log("Ended the api call to google now")
 
     }
 
