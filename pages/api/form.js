@@ -28,12 +28,13 @@ export default async function handler(req, res) {
             return;
         } else {
             res.json({ FormSucess: true });
+            console.log("1: Pre-Connected");
             gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-            console.log("1: Connected");
+            console.log("2: Connected");
         }
     });
 
-    async function gsrun(cl, Name, Email, Project, Message) {
+    function gsrun(cl, Name, Email, Project, Message) {
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         let dateTime = date + '---' + time;
