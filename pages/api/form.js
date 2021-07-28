@@ -9,7 +9,6 @@ export default async function handler(req, res) {
 
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 
-    console.log("Set the scope");
     const client = new google.auth.JWT(
         keys.client_email,
         null,
@@ -17,16 +16,11 @@ export default async function handler(req, res) {
         SCOPES
     );
 
-    console.log("right before authentication")
 
 
 
     //connecting the client to the google api
     client.authorize(function (err, tokens) {
-
-
-        console.log("authenticated the google sheets api");
-        console.log(req.body.Name);
 
         if (err) {
             res.json({ FormSucess: false });
@@ -44,13 +38,13 @@ export default async function handler(req, res) {
         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         let dateTime = date + '---' + time;
 
+        console.log("DateTime Input:", dateTime)
+
 
         const gsapi = google.sheets({ version: 'v4', auth: cl });
 
         //Data for spreadsheet information
         let inputArray = [[dateTime, Name, Email, Project, Message]];
-
-        console.log("The datasheet input:", inputArray);
 
         const updateOptions = {
             spreadsheetId: '1b1ZIA939iImXA2wjJsBIbhFR3OF3eaaQuZ8TQPxBDwA',
@@ -59,8 +53,6 @@ export default async function handler(req, res) {
             insertDataOption: 'INSERT_ROWS',
             resource: { values: inputArray }
         };
-
-        console.log("Update Parameters:", updateOptions);
 
 
         gsapi.spreadsheets.values.append(updateOptions)
