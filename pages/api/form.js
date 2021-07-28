@@ -72,6 +72,7 @@ export default async function handler(req, res) {
                 console.log("The following error has occured", err)
             });
 
+            console.log("Ended the api call to google now")
 
     }
 
