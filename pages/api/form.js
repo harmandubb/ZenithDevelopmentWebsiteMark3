@@ -47,6 +47,7 @@ export default async function handler(req, res) {
         //Data for spreadsheet information
         let inputArray = [[dateTime, Name, Email, Project, Message]];
 
+
         const updateOptions = {
             spreadsheetId: '1b1ZIA939iImXA2wjJsBIbhFR3OF3eaaQuZ8TQPxBDwA',
             range: 'Pre_Reg_Form!A2',
@@ -54,6 +55,7 @@ export default async function handler(req, res) {
             insertDataOption: 'INSERT_ROWS',
             resource: { values: inputArray }
         };
+        console.log("UpdateOptions have been set!")
 
 
         gsapi.spreadsheets.values.append(updateOptions)
