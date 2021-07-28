@@ -9,6 +9,8 @@ export default async function handler(req, res) {
 
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 
+    console.log("Scope has been set up")
+
     const client = new google.auth.JWT(
         keys.client_email,
         null,
@@ -21,6 +23,7 @@ export default async function handler(req, res) {
 
     //connecting the client to the google api
     client.authorize(function (err, tokens) {
+        console.log("authorization has started")
 
         if (err) {
             res.json({ FormSucess: false });
@@ -35,6 +38,7 @@ export default async function handler(req, res) {
     });
 
     function gsrun(cl, Name, Email, Project, Message) {
+        console.log("GSrun is working")
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         let dateTime = date + '---' + time;
