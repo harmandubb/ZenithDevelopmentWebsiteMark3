@@ -52,7 +52,7 @@ export default async function handler(req, res) {
         let inputArray = [[dateTime, Name, Email, Project, Message]];
 
 
-        const console.log("UpdateOptions:", updateOptions)updateOptions = {
+        const updateOptions = {
             spreadsheetId: '1b1ZIA939iImXA2wjJsBIbhFR3OF3eaaQuZ8TQPxBDwA',
             range: 'Pre_Reg_Form!A2',
             valueInputOption: 'USER_ENTERED',
@@ -75,7 +75,7 @@ export default async function handler(req, res) {
                 console.error("The following error has occured", err)
             });
 
-        console.log("Ended the api call to google now")
+            console.log("Ended the api call to google now")
 
     }
 
