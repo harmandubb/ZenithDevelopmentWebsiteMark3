@@ -52,7 +52,7 @@ export default async function handler(req, res) {
         let inputArray = [[dateTime, Name, Email, Project, Message]];
 
 
-        const updateOptions = {
+        const console.log("UpdateOptions:", updateOptions)updateOptions = {
             spreadsheetId: '1b1ZIA939iImXA2wjJsBIbhFR3OF3eaaQuZ8TQPxBDwA',
             range: 'Pre_Reg_Form!A2',
             valueInputOption: 'USER_ENTERED',
@@ -66,15 +66,16 @@ export default async function handler(req, res) {
             .then((res) => {
                 console.log("Information has been sent out:")
                 console.log("UpdateOptions:", updateOptions)
+                console.log("UpdateOptions:", updateOptions.resource)
                 console.log("The response:", res.result);
             })
             .catch((err) => {
                 console.log("The information has not been sent out")
-                console.log("UpdateOptions:", updateOptions)
+                console.log("UpdateOptions:", updateOptions.resource)
                 console.error("The following error has occured", err)
             });
 
-            console.log("Ended the api call to google now")
+        console.log("Ended the api call to google now")
 
     }
 
