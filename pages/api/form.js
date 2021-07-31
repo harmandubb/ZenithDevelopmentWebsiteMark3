@@ -4,7 +4,7 @@ const today = new Date();
 
 
 
-export default async function handler(req, res) {
+export default function handler(req, res) {
     console.log("Getting to the start of the API function");
 
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
