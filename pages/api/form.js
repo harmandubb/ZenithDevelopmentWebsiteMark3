@@ -46,6 +46,7 @@ export default function handler(req, res) {
     );
 
     function gsrun(cl, Name, Email, Project, Message) {
+        console.log("Gsrun is starting at this point")
 
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
