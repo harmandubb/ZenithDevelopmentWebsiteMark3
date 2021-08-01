@@ -16,7 +16,6 @@ export default function handler(req, res) {
         keys.client_email,
         null,
         keys.private_key,
-        keys.private_key_id,
         SCOPES
     );
 
@@ -58,8 +57,9 @@ export default function handler(req, res) {
         } else {
             console.log("Token:", token);
             console.log("Connected!")
-            gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+            let output = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
             console.log("GSrun has completed.")
+            return output;
         }
     });
 
@@ -98,11 +98,13 @@ export default function handler(req, res) {
                 console.log("UpdateOptions:", updateOptions)
                 console.log("UpdateOptions:", updateOptions.resource)
                 console.log("The response:", res);
+                return res;
             })
             .catch((err) => {
                 console.log("The information has not been sent out")
                 console.log("UpdateOptions:", updateOptions.resource)
                 console.error("The following error has occured", err)
+                return err;
             });
 
 
