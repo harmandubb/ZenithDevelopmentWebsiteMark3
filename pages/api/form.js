@@ -4,20 +4,30 @@ const today = new Date();
 
 
 
+
 export default function handler(req, res) {
     console.log("Getting to the start of the API function");
 
-    const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
+    const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']; //Check
 
     console.log("Scope has been set up")
 
-    const client = new google.auth.JWT(
-        keys.client_email,
+    // const client = new google.auth.JWT(
+    //     keys.client_email,
+    //     null,
+    //     keys.private_key,
+    //     SCOPES
+    // );
+
+    const client = new google.auth.OAuth2(
+        keys.client_id,
         null,
-        keys.private_key,
+        'token',
         SCOPES
     );
+    //Seems correction
 
+    console.log("The client property parameters have been set up")
 
 
 
@@ -26,7 +36,7 @@ export default function handler(req, res) {
         console.log("authorization has started")
 
         if (err) {
-            res.json({ FormSucess: false });
+            console.log("Authenitization of the client has failed")
             console.log(err);
             return;
         } else {
@@ -36,6 +46,9 @@ export default function handler(req, res) {
             console.log("2: Connected");
         }
     });
+
+    console.log("Ended the api call to google now")
+
 
     function gsrun(cl, Name, Email, Project, Message) {
         console.log("GSrun is working")
@@ -67,7 +80,7 @@ export default function handler(req, res) {
                 console.log("Information has been sent out:")
                 console.log("UpdateOptions:", updateOptions)
                 console.log("UpdateOptions:", updateOptions.resource)
-                console.log("The response:", res.result);
+                console.log("The response:", res);
             })
             .catch((err) => {
                 console.log("The information has not been sent out")
@@ -75,10 +88,9 @@ export default function handler(req, res) {
                 console.error("The following error has occured", err)
             });
 
-            console.log("Ended the api call to google now")
+
 
     }
-
 
 
 }
