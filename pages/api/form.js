@@ -33,21 +33,21 @@ export default function handler(req, res) {
     // });
 
     client.authorize(function (err, token) {
-
         if (err) {
             console.log(err);
             return;
         } else {
-            console.log("Connected!")
-            let gsRes = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-            console.log("Response from GSRUN", gsRes);
-            return gsRes;
+            console.log("Connected!");
+            let output = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+            console.log("GSRUN output:", output);
+            return output;
         }
-    });
+    }
+    );
 
     function gsrun(cl, Name, Email, Project, Message) {
 
-        let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+        let date = today.getFullY85ear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         let dateTime = date + '---' + time;
 
