@@ -37,13 +37,13 @@ export default function handler(req, res) {
             console.log(err);
         } else {
             console.log("Connected!");
-            console.log("Return of gsrun", gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message));
-
+            let res = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+            return res;
         }
     }
     );
 
-    function gsrun(cl, Name, Email, Project, Message) {
+    async function gsrun(cl, Name, Email, Project, Message) {
         console.log("Gsrun is starting at this point")
 
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -63,27 +63,29 @@ export default function handler(req, res) {
             resource: { values: inputArray }
         };
 
+        console.log("about to create the promise");
 
-        var output;
+        let google_promise = new Promise((resolve, reject) => {
+            gsapi.spreadsheets.values.append(updateOptions)
+                .then((google_res) => {
+                    resolve(google_res);
+                })
+                .catch(err => {
+                    reject(err);
+                })
+        })
 
-        console.log("Output value when it is initialized:", output);
 
-        gsapi.spreadsheets.values.append(updateOptions)
-            .then((res) => {
-                output = res;
-                console.log("Information has been sent out:");
-                console.log("The response:", output);
-                console.log("Output in the then/catch block", output);
-            })
-            .catch((err) => {
-                console.log("The information has not been sent out");
-                console.error("The following error has occured", err);
-                ouput = err;
-            });
 
-        console.log("output variable:", output);
 
-        return output;
-
+        // gsapi.spreadsheets.values.append(updateOptions)
+        //     .then((res) => {
+        //         console.log("Information has been sent out:");
+        //         console.log("The response:", res.status);
+        //     })
+        //     .catch((err) => {
+        //         console.log("The information has not been sent out");
+        //         console.error("The following error has occured", err);
+        //     });
     }
 }
