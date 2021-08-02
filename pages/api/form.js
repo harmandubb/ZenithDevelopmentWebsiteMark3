@@ -35,12 +35,10 @@ export default function handler(req, res) {
     client.authorize(function (err, token) {
         if (err) {
             console.log(err);
-            return;
         } else {
             console.log("Connected!");
-            let output = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-            console.log("GSRUN output:", output);
-            return output;
+            console.log("Return of gsrun", gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message));
+
         }
     }
     );
@@ -65,17 +63,27 @@ export default function handler(req, res) {
             resource: { values: inputArray }
         };
 
+
+        var output;
+
+        console.log("Output value when it is initialized:", output);
+
         gsapi.spreadsheets.values.append(updateOptions)
             .then((res) => {
+                output = res;
                 console.log("Information has been sent out:");
-                console.log("The response:", res);
-                return res;
+                console.log("The response:", output);
+                console.log("Output in the then/catch block", output);
             })
             .catch((err) => {
                 console.log("The information has not been sent out");
                 console.error("The following error has occured", err);
-                return err;
+                ouput = err;
             });
+
+        console.log("output variable:", output);
+
+        return output;
 
     }
 }
