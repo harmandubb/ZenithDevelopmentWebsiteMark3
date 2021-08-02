@@ -5,7 +5,7 @@ const today = new Date();
 
 
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
 
     const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']; //Check
 
@@ -16,34 +16,26 @@ export default function handler(req, res) {
         SCOPES
     );
 
-    //connecting the client to the google api
-    // client.authorize(function (err, tokens) {
-    //     console.log("authorization has started")
-
-    //     if (err) {
-    //         console.log("Authenitization of the client has failed")
-    //         console.log(err);
-    //         return;
-    //     } else {
-    //         res.json({ FormSucess: true });
-    //         console.log("1: Pre-Connected");
-    //         gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-    //         console.log("2: Connected");
-    //     }
-    // });
-
-    client.authorize(function (err, token) {
+    await client.authorize(async function (err, token) {
         if (err) {
             console.log(err);
         } else {
             console.log("Connected!");
-            gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+            await gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message)
+                .then((google_res) => {
+                    const temp = google_res;
+                    console.log("Printing Temp", temp);
+                    res.json({response:temp})
+                }
+                ).catch((err) => {
+                    console.log("An error has occured at the google response", err);
+                });
 
         }
     }
     );
 
-    function gsrun(cl, Name, Email, Project, Message) {
+    async function gsrun(cl, Name, Email, Project, Message) {
         console.log("Gsrun is starting at this point")
 
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -65,14 +57,14 @@ export default function handler(req, res) {
 
         console.log("about to create the promise");
 
-        return new Promise((resolve, reject) => {
+        return await new Promise((resolve, reject) => {
             gsapi.spreadsheets.values.append(updateOptions)
                 .then((google_res) => {
-                    console.log("in the promise resolve and this is the response:", google_res);
+                    //console.log("in the promise resolve and this is the response:", google_res);
                     resolve(google_res);
                 })
                 .catch(err => {
-                    console.log("in the promise error section");
+                    //console.log("in the promise error section");
                     reject(err);
                 })
         })
