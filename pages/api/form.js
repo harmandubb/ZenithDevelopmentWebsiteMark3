@@ -37,13 +37,13 @@ export default function handler(req, res) {
             console.log(err);
         } else {
             console.log("Connected!");
-            let res = gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
-            return res;
+            gsrun(client, req.body.Name, req.body.Email, req.body.Project, req.body.Message);
+
         }
     }
     );
 
-    async function gsrun(cl, Name, Email, Project, Message) {
+    function gsrun(cl, Name, Email, Project, Message) {
         console.log("Gsrun is starting at this point")
 
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -65,12 +65,14 @@ export default function handler(req, res) {
 
         console.log("about to create the promise");
 
-        let google_promise = new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             gsapi.spreadsheets.values.append(updateOptions)
                 .then((google_res) => {
+                    console.log("in the promise resolve and this is the response:", google_res);
                     resolve(google_res);
                 })
                 .catch(err => {
+                    console.log("in the promise error section");
                     reject(err);
                 })
         })
