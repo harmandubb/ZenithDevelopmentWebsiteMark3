@@ -45,6 +45,9 @@ const Form = () => {
                 console.log("Fetch returned an error:", err));
 
 
+        timedRefresh(5000);
+
+
 
 
 
@@ -56,7 +59,7 @@ const Form = () => {
 
     return (
         <>
-            <div class="md:pt-8 px-4">
+            <div class="md:pt-8 px-4 mb-12">
                 <form onSubmit={register} id="preregForm">
 
 

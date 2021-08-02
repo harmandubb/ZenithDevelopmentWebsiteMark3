@@ -21,15 +21,21 @@ const QuoteBlock = () => {
             body: JSON.stringify(data)
         };
 
-        const response = await fetch('/api/quote', options);
+        await fetch('/api/quote', options)
+            .then((response) => {
+                console.log("Fetch was sucessful:", response);
+                if (response.status == 200) {
+                    toggle_quote_response(true);
+                } else {
+                    toggle_quote_response(false);
+                }
+            })
+            .catch((err) =>
+                console.log("Fetch returned an error:", err));
 
-        if (response.status == 200) {
-            toggle_quote_response(true);
-        } else {
-            toggle_quote_response(false);
-        }
+        timedRefresh(5000);
 
-        
+
 
     }
 

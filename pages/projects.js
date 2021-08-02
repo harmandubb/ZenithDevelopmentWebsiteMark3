@@ -174,10 +174,10 @@ export default function Projects() {
 
                 </div>
 
-                <div id="past"
+                {/* <div id="past"
                     class="sticky top-32 sm:top-28 md:top-36 lg:top-32 mt-8 pt-2 pb-2 z-10 text-white text-center text-3xl font-bold bg-gray-900 rounded-lg">
                     2020
-                </div>
+                </div> */}
             </div>
 
 

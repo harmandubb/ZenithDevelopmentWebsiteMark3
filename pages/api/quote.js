@@ -16,17 +16,23 @@ export default async function handler(req, res) {
     );
 
     //connecting the client to the google api
-    client.authorize(function (err, tokens) {
-
+    await client.authorize(async function (err, token) {
         if (err) {
-            res.json({FormSucess: false});
-            res.json();
-            return;
+            console.log(err);
         } else {
-            res.json({FormSucess: true});
-            gsrun(client, req.body.Name, req.body.Email);
+            console.log("Connected!");
+            await gsrun(client, req.body.Name, req.body.Email)
+                .then((google_res) => {
+                    const temp = google_res;
+                    res.json({response:temp})
+                }
+                ).catch((err) => {
+                    console.log("An error has occured at the google response", err);
+                });
+
         }
-    });
+    }
+    );
 
     async function gsrun(cl, Name, Email) {
         let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -47,7 +53,17 @@ export default async function handler(req, res) {
             resource: { values: inputArray }
         };
 
-        gsapi.spreadsheets.values.append(updateOptions);
+        return await new Promise((resolve, reject) => {
+            gsapi.spreadsheets.values.append(updateOptions)
+                .then((google_res) => {
+                    //console.log("in the promise resolve and this is the response:", google_res);
+                    resolve(google_res);
+                })
+                .catch(err => {
+                    //console.log("in the promise error section");
+                    reject(err);
+                })
+        })
     }
 }
 
