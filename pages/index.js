@@ -24,7 +24,7 @@ export default function Home() {
               No project too big, No project too small
             </h2>
             <h1
-              class="mb-8 text-4xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-5xl title-font">
+              class="mb-4 text-4xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-5xl title-font">
               Welcome
             </h1>
             <p class="mb-8 text-sm sm:text-base leading-relaxed text-left text-gray-700 lg:text-left lg:text-1xl">

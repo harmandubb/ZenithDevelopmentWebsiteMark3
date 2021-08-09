@@ -70,12 +70,12 @@ const Form = () => {
                                 <div class="relative ">
                                     <label htmlFor="Name" class="text-sm leading-7 text-gray-600">Your name</label>
                                     <input required type="Name" id="Name" name="Name" placeholder="Name"
-                                        class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
+                                        class="w-full px-4 py-2 mb-4 mr-4 bg-gray-100 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
                                 </div>
                                 <div class="relative ">
                                     <label htmlFor="Email" class="text-sm leading-7 text-gray-600">Email address</label>
                                     <input required type="Email" id="Email" name="Email" placeholder="Email"
-                                        class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
+                                        class="w-full px-4 py-2 mb-4 mr-4 bg-gray-100 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></input>
                                 </div>
                                 <div class="relative mb-4 ">
 
@@ -91,7 +91,7 @@ const Form = () => {
                                 </div>
                                 <div class="relative ">
                                     <textarea type="Message" id="Message" name="Message" placeholder="Tell us what you are looking for"
-                                        class="w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></textarea>
+                                        class="w-full px-4 py-2 mb-4 mr-4 bg-gray-100 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"></textarea>
                                 </div>
                                 <button
                                     class="inline-flex lg:w-1/4 md:w-1/4 w-full px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Pre-Register
