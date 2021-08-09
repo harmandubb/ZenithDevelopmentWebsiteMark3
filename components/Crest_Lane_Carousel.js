@@ -29,6 +29,7 @@ const Crest_Lane_Carousel = () => {
 
                 <SwiperSlide>
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
+                        
                         <img class='object-cover' src="img/NEW_82_KingGeorge_Exterior.jpg"></img>
                         <div class="hidden sm:block absolute top-36 left-16 sm:top-52 sm:left-40 bg-gray-900 bg-opacity-60 rounded-lg">
                             <h1 class="text-white text-3xl mr-4 ml-4 mt-4 font-bold">

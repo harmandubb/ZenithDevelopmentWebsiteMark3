@@ -29,7 +29,15 @@ const Main = () => {
 
                 <SwiperSlide>
                     <div class='z-40 object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                        <img class='object-cover' src="/img/Main_82_KingGeorge_Exterior.jpg"></img>
+                        <Image
+                            src="/img/Main_82_KingGeorge_Exterior.jpg"
+                            alt="Crest Lane Render"
+                            height={1320}
+                            width={1910}
+                            layout="responsive"
+                            class=""
+                        />
+                        {/* <img class='object-cover' src="/img/Main_82_KingGeorge_Exterior.jpg"></img> */}
                         <div class="hidden sm:block absolute top-36 left-16 sm:top-52 sm:left-40 bg-gray-900 bg-opacity-60 rounded-lg">
                             <h1 class="text-white text-3xl mr-4 ml-4 mt-4 font-bold">
                                 Crest Lane
@@ -72,7 +80,7 @@ const Main = () => {
                                         <a>
                                             <button class="items-center px-2 py-2 ml-20 sm:ml-28 mb-4 mr-6 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
                                                 Explore
-                                        </button>
+                                            </button>
                                         </a>
 
                                     </Link>
@@ -88,7 +96,15 @@ const Main = () => {
 
                 <SwiperSlide>
                     <div class='z-40 object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                        <img class='object-cover' src="img/Main_C2.jpg"></img>
+                        <Image
+                            src="/img/Main_C2.jpg"
+                            alt="Crest Lane Render"
+                            height={1320}
+                            width={1910}
+                            layout="responsive"
+                            class="object-cover"
+                        />
+                        {/* <img class='object-cover' src="img/Main_C2.jpg"></img> */}
                         <div class="hidden sm:block absolute top-36 left-16 sm:top-52 sm:left-40 bg-gray-900 bg-opacity-60 rounded-lg">
                             <h1 class="text-white text-3xl mr-4 ml-4 mt-4 font-bold">
                                 Elgin Park
@@ -130,7 +146,7 @@ const Main = () => {
                                         <a>
                                             <button class="items-center px-2 py-2 ml-32 sm:ml-40 mb-4 mr-6 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
                                                 Explore
-                                    </button>
+                                            </button>
                                         </a>
 
                                     </Link>

@@ -28,9 +28,7 @@ export default function Home() {
               Welcome
             </h1>
             <p class="mb-8 text-sm sm:text-base leading-relaxed text-left text-gray-700 lg:text-left lg:text-1xl">
-              Zenith Development has been building quality homes, strata properties and installing quality roofs
-              in the greater Vancouver area since 1994. As members of the National Home Warranty and the Pacific
-              Home Warranty associations we stand firmly behind our quality work.
+              Zenith Development has been building homes, strata properties and installing roofs in the greater Vancouver area since 1994. As members of the National Home Warranty and the Pacific Home Warranty association we stand firmly behind our quality work.
             </p>
 
             <p class="mb-8 text-sm sm:text-base leading-relaxed text-left text-gray-700 lg:text-left lg:text-1xl">
@@ -46,7 +44,7 @@ export default function Home() {
               </Link>
 
               <p class="mt-2 px-2 text-sm text-center text-gray-600 md:ml-6 md:mt-0 sm:text-left">
-                Pre-register now for a unit viewing.
+                Pre-register now for a property viewing.
 
                 <Link href="/pre-reg">
                   <a
@@ -87,12 +85,16 @@ export default function Home() {
         <div class="container px-8 mx-auto pt-2 lg:px-4">
           <div class="flex flex-wrap text-center">
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
-              <img class="object-cover object-center w-full h-40 mb-6 rounded" src="img/C2.jpg"
-                alt="Elgin Park Project"></img>
+            <Image
+              src="/img/C2.jpg"
+              alt = "Picture of a Roof"
+              width = {800}
+              height = {280}
+              class = "object-cover object-center w-full h-40 mb-6 rounded"
+              />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Current Projects
               </h2>
-              <p class="mb-4 text-base leading-relaxed"> Elgin Park is a commercial project in South Surrey and
-                ready for leasing.</p>
+              <p class="mb-4 text-base leading-relaxed"> Elgin Park is a commercial project in South Surrey and is ready for leasing.</p>
               <Link href="/projects">
                 <a
                   class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
@@ -107,12 +109,17 @@ export default function Home() {
               </Link>
             </div>
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
-              <img class="object-cover object-center w-full h-40 mb-6 rounded" src="img/Roof.jpg"
-                alt="Roofing Picture"></img>
+              <Image
+              src="/img/Roof.jpg"
+              alt = "Picture of a Roof"
+              width = {800}
+              height = {280}
+              class = "object-cover object-center w-full h-40 mb-6 rounded"
+              />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Roofing Service
               </h2>
               <p class="mb-4 text-base leading-relaxed">
-                Installing roofs for 30 years on residential and commerical projects in the Lower Mainland.
+                Installing roofs for 30 years on residential, strata, and commercial projects in the Lower Mainland.
               </p>
               <Link href="/roofing">
                 <a
@@ -128,12 +135,17 @@ export default function Home() {
               </Link>
             </div>
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
-              <img class="object-cover object-center w-full h-40 mb-6 rounded" src="img/House_render.jpg"
-                alt="Roofing Picture"></img>
+            <Image
+              src="/img/House_render.jpg"
+              alt = "Picture of a Roof"
+              width = {800}
+              height = {280}
+              class = "object-cover object-center w-full h-40 mb-6 rounded"
+              />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Past Projects
               </h2>
               <p class="mb-4 text-base leading-relaxed">
-                Checkout our quality residential and strata projects starting from 2015
+                Checkout our residential and strata projects starting from 2015
               </p>
               <Link href="/projects#past">
                 <a

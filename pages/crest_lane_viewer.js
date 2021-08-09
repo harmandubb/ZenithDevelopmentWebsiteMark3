@@ -77,7 +77,12 @@ export default function Crest_Lane_Viewer() {
 
             <SwiperSlide>
                 <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                    <img class='object-cover' src="img/82_KingGeorge_Exterior.jpg"></img>
+                <Image
+                            src="/img/Main_82_KingGeorge_Exterior.jpg"
+                            alt="Crest Lane Render"
+                            height={1225}
+                            width={1910}
+                        />
                 </div>
             </SwiperSlide>
 
@@ -99,7 +104,7 @@ export default function Crest_Lane_Viewer() {
         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4 border-gray-300 border-b md:border-b-0">
-                            0 of 72 <br></br> Condos sold
+                            0 of 78 <br></br> Condos sold
         </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
                             Units starting at $400,000
@@ -247,7 +252,7 @@ export default function Crest_Lane_Viewer() {
                         </p>
 
                         <p class="">
-                        We are brining modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city is near by to provide you with a create shopping experience for groceries, cloths, tech and other modern essential needs.
+                        We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
 </p>
                     </div>
                 </div>
@@ -255,14 +260,14 @@ export default function Crest_Lane_Viewer() {
 
 
                 <div class="relative w-1/5">
-                    <div class="grid grid-cols-2 gap-6 py-6 px-8">
+                    <div class="flex flex-col lg:grid lg:grid-cols-2 gap-6 py-6 px-8">
                         <div class="">
                             <p class="text-gray-900 font-semibold">Type</p>
-                            <p class="mt-1 text-gray-500">Condo</p>
+                            <p class="mt-1 text-gray-500">Condo and Townhomes</p>
                         </div>
 
                         <div class="">
-                            <p class="text-gray-900 font-semibold">Year Built</p>
+                            <p class="text-gray-900 font-semibold">Completion</p>
                             <p class="mt-1 text-gray-500">2023</p>
                         </div>
                         <div class="">
@@ -490,16 +495,16 @@ export default function Crest_Lane_Viewer() {
                         </div>
 
 
-                        <div class="flex justify-center">
-                            <div class="grid grid-cols-2 gap-6 py-6 px-8 sm:flex">
+                        <div class="flex justify-evenly sm:ml-2 narrow:ml-16 ml-2">
+                            <div class="grid grid-cols-2 gap-6 py-6 px-8 sm:flex justify-evenly">
 
-                                <div class="sm:px-8">
+                                <div class="sm:px-2">
                                     <p class="text-black font-semibold">Type</p>
-                                    <p class="mt-1 text-gray-500">Condo</p>
+                                    <p class="mt-1 text-gray-500">Condo and Townhomes</p>
                                 </div>
 
-                                <div class="sm:px-8">
-                                    <p class="text-black font-semibold">Year Built</p>
+                                <div class="sm:px-2">
+                                    <p class="text-black font-semibold">Completion</p>
                                     <p class="mt-1 text-gray-500">2023</p>
                                 </div>
                                 <div class="sm:px-8">
@@ -529,7 +534,7 @@ export default function Crest_Lane_Viewer() {
         </p>
 
                                 <p class="text-2xl font-bold border-gray-300">
-                                    0 of 72 <br></br> Condos sold
+                                    0 of 78 <br></br> Condos sold
         </p>
                                 <p class="text-gray-400 font-semibold">
                                     Units starting at $400,000
@@ -558,7 +563,7 @@ export default function Crest_Lane_Viewer() {
                     </div>
 
                     <p class="mt-2 pb-4">
-                    We are brining modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city is near by to provide you with a create shopping experience for groceries, cloths, tech and other modern essential needs.
+                    We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
 </p>
 
                 </div>

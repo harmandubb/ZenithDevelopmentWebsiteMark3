@@ -4,7 +4,7 @@ import React from 'react';
 import ActiveLink from './ActiveLink'
 
 const Nav = () => {
-    
+
 
     <style jsx>{`
             @media screen and (max-width: 768px) {
@@ -35,6 +35,7 @@ const Nav = () => {
                                     alt="Zenith Development Logo"
                                     width={100}
                                     height={100}
+                                    layout = "responsive"
                                 />
                             </a>
 

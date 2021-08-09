@@ -34,18 +34,40 @@ export default function Res_Viewer() {
             >
 
                 <SwiperSlide>
-                    <div class='relative object-center w-screen max-h-screen'>
-                        <img class='object-cover' src="img/SurreyBanquetView01.jpg"></img>
+                    <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
+                        <Image
+                            src="/img/SurreyBanquetView01.jpg"
+                            alt="Picture of a Roof"
+                            width={1910}
+                            height={1000}
+                            class="object-cover object-center w-full h-40 mb-4"
+                        />
+
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class='relative object-center w-screen max-h-screen'>
-                        <img class='object-cover' src="img/SurreyBanquetView02.jpg"></img>
+                    <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
+                        <Image
+                            src="/img/SurreyBanquetView02.jpg"
+                            alt="Picture of a Roof"
+                            width={1910}
+                            height={1000}
+                            class="object-cover object-center w-full h-40 mb-4"
+                        />
+                        {/* <img class='object-cover' src="img/SurreyBanquetView02.jpg"></img> */}
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class='relative object-center w-screen max-h-screen'>
-                        <img class='object-cover' src="img/SurreyBanquetView03.jpg"></img>
+                    <div class='object-center w-screen max-h-screen lg:mt-0 mt-24n'>
+                        <Image
+                            src="/img/SurreyBanquetView03.jpg"
+                            alt="Picture of a Roof"
+                            width={1910}
+                            height={1400}
+                            class="object-cover object-center w-full h-40 mb-4"
+                        />
+
+                        {/* <img class='object-cover' src="img/SurreyBanquetView03.jpg"></img> */}
                     </div>
                 </SwiperSlide>
             </Swiper>}
@@ -66,13 +88,26 @@ export default function Res_Viewer() {
 
                 <SwiperSlide>
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                        <img class='object-cover' src="img/ELGIN_PARK_VIEWER_C3.jpg"></img>
+                        <Image
+                            src="/img/ELGIN_PARK_VIEWER_C3.jpg"
+                            alt="Picture of a Roof"
+                            width={1910}
+                            height={1000}
+                            class="object-cover object-center w-full h-40 mb-4"
+                        />
+
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                        <img class='object-cover' src="img/C3.jpg"></img>
+                        <Image
+                            src="/img/C3.jpg"
+                            alt="Picture of a Roof"
+                            width={1910}
+                            height={1000}
+                            class="object-cover object-center w-full h-40 mb-4"
+                        />
                     </div>
                 </SwiperSlide>
 
@@ -106,7 +141,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4">
-                            0 of 30 <br></br> units sold
+                            0 of 40 <br></br> units sold
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
                             Office and retail
@@ -150,14 +185,13 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="mb-2">
-                            Elgin park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
+                            Elgin Park is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture outlooking 148 St will attract the community to the plaza. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will consists of a combination of retail and office units.
                         </p>
                         <p class="mb-2">
-                            The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.
+                            The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make entering and exiting the plaza easy, even during peak hours.
                         </p>
                         <p>
-                            We anticipate Elgin Park will be a center where people meet to work, play, and eat. Pre-register today to become apart of this amazing opportunity.
-                        </p>
+                            We anticipate Elgin Park will be a center where people meet to work, play, and eat. Pre-register today to become a part of this amazing opportunity.                        </p>
                     </div>
                 </div>
 
@@ -254,24 +288,21 @@ export default function Res_Viewer() {
                         </div>
                     </div>
 
-                    <div class="flex narrow:mt-0 mt-2 ">
+                    <div class="flex mt-2 ">
 
-                        <div class="narrow:ml-2 ">
+                        <div class="">
                             Set up a viewing:
                         </div>
 
                         <div class="ml-2">
-
-                            <a href="com_viewer.html">
-                                <button class="items-center px-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
-                                    Pre-register
+                            <Link href="/pre-reg">
+                                <button
+                                    class="items-center px-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
+                                    <a> Pre-register</a>
                                 </button>
-                            </a>
 
-
+                            </Link>
                         </div>
-
-
                     </div>
 
 
@@ -297,8 +328,8 @@ export default function Res_Viewer() {
 
                     <div class="border-b">
 
-                        <div class="flex justify-center">
-                            <div class="grid grid-cols-2 gap-6 py-6 px-8 sm:flex">
+                        <div class="flex justify-evenly sm:ml-2 narrow:ml-16 ml-2">
+                            <div class="grid grid-cols-2 gap-6 py-6 px-8 sm:flex justify-evenly">
 
 
                                 <div class="">
@@ -353,7 +384,7 @@ export default function Res_Viewer() {
                                     Phase B</p>
 
                                 <p class="text-2xl font-bold">
-                                    0 of 30 <br></br> units sold
+                                    0 of 40 <br></br> units sold
                                 </p>
                                 <p class=" text-gray-400 font-semibold">
                                     Office and retail
@@ -367,8 +398,8 @@ export default function Res_Viewer() {
 
                     </div>
 
-                    <p class="mb-2">
-                        Elgin park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
+                    <p class="mb-2 mt-4">
+                        Elgin Park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
                     </p>
                     <p class="mb-2">
                         The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.

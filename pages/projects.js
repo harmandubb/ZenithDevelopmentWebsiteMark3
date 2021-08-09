@@ -20,7 +20,14 @@ export default function Projects() {
 
                     <div class="flex flex-col md:flex-row sm:mt-16 md:mt-20 lg:mt-8 mt-24">
                         <div class="">
-                            <img class="object-contain rounded-lg max-h-96" src="/img/82_KingGeorge_Exterior.jpg"></img>
+                            <Image
+                                class="hidden md:block object-cover object-center rounded-lg"
+                                src="/img/82_KingGeorge_Exterior.jpg"
+                                alt="Crest Lane Render"
+                                width={550}
+                                height={400}
+                            />
+                            {/* <img class="object-contain rounded-lg max-h-96" src="/img/82_KingGeorge_Exterior.jpg"></img> */}
                         </div>
 
                         <div class="ml-0 md:ml-2 xl:ml-4">
@@ -45,7 +52,7 @@ export default function Projects() {
 
 
                                     <div>
-                                        King George Boulevard and 82nd Ave Surrey
+                                        King George Boulevard and 82nd Ave, Surrey
                                     </div>
 
                                 </div>
@@ -54,7 +61,7 @@ export default function Projects() {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                                     </svg>
                                     <div class="">
-                                        34 Townhouse and 72 Condo Units
+                                        34 Townhouse and 78 Condo Units
                                     </div>
 
                                 </div>
@@ -88,7 +95,15 @@ export default function Projects() {
 
 
                         <div class="ml-8 w-1/3 mr-2 hidden xl:block">
-                            We are brining modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city is near by to provide you with a create shopping experience for groceries, cloths, tech and other modern essential needs.
+
+                            <h2 class="font-bold text-lg">
+                                Description:
+                            </h2>
+
+                            <div>
+                                We are bringing modern townhomes and condos to the Surrey Central area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city shopping experience is nearby to provide you with groceries, cloths and tech needs alongside great cultural restaurants.                         </div>
+
+
                         </div>
 
                     </div>
@@ -98,7 +113,15 @@ export default function Projects() {
 
                 <div class="flex flex-col md:flex-row mt-4 md:mt-8 lg:mt-8">
                     <div class="">
-                        <img class="object-contain rounded-lg max-h-96" src="/img/Main_C2.jpg"></img>
+                        <Image
+                            class="hidden md:block object-cover object-center rounded-lg"
+                            src="/img/Main_C2.jpg"
+                            alt="Crest Lane Render"
+                            width={550}
+                            height={400}
+                            layout="intrinsic"
+                        />
+                        {/* <img class="object-contain rounded-lg max-h-96" src="/img/Main_C2.jpg"></img> */}
                     </div>
 
                     <div class="ml-0 md:ml-2 xl:ml-4">
@@ -121,7 +144,7 @@ export default function Projects() {
                                 </div>
 
                                 <div>
-                                    3020 148 St Surrey
+                                    3020 148 St, Surrey
                                 </div>
 
                             </div>
@@ -130,7 +153,7 @@ export default function Projects() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                                 </svg>
                                 <div class="">
-                                    20 Retail and 20 Warehouse Units
+                                    50 Retail Units
                                 </div>
 
                             </div>
@@ -144,7 +167,7 @@ export default function Projects() {
 
 
                                 <div class="">
-                                    Coming 2023
+                                    Leasing Now
                                 </div>
 
                             </div>
@@ -164,12 +187,19 @@ export default function Projects() {
 
 
                     <div class="ml-8 w-1/3 mr-2 hidden xl:block">
-                        <p class="mb-2">
-                            Elgin park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
-                        </p>
-                        <p class="mb-2">
-                            The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.
-                        </p>
+                        <h2 class="font-bold text-lg">
+                            Description:
+                        </h2>
+                        <div>
+                            <p class="mb-2">
+                                Elgin Park is bringing restaurants, retail stores, offices, and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to your business. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units on the ground. Phase B will bring a combination of retail and office units.
+                            </p>
+                            <p class="mb-2">
+                                The underground parking in and the outdoor parking will consist of more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.                        </p>
+
+
+
+                        </div>
                     </div>
 
                 </div>

@@ -26,12 +26,12 @@ export default function Roofing() {
 
 
 
-                            <QuoteBlock />
+                                <QuoteBlock />
 
 
                             </div>
 
-                            
+
 
 
                         </div>
@@ -78,7 +78,7 @@ export default function Roofing() {
                             </svg></span>Reroof Service</p>
 
                         <p class="mb-8 text-base leading-relaxed text-left text-gray-700">
-                            Take a look at our projects to see the quality of our roofs.
+                            Take a look at our projects to see our roofing work.
                         </p>
 
                         <Link href="/projects">
