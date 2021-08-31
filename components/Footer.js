@@ -38,12 +38,6 @@ const Footer = () => {
                             <nav class="mb-10 list-none">
                                 <li>
                                     <p class="text-sm text-gray-600">
-                                        Address: 15145 Fraser Hwy, Surrey B.C.
-                                    </p>
-
-                                </li>
-                                <li>
-                                    <p class="text-sm text-gray-600">
                                         Email: info@zenithdevelopment.ca
                                     </p>
                                 </li>
