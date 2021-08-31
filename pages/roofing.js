@@ -9,6 +9,23 @@ import QuoteBlock from '../components/Quote'
 export default function Roofing() {
     return (
         <>
+            <Head>
+
+                <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=devide-width, initial-scale=1" />
+                <title>Roofing - Zenith Development</title>
+                <meta name="title" content="Roofing - Zenith Development" />
+                <meta name="description" content="Zenith Development has been installing quality roofs in the Greater Vancouver area since 1994. Contact us to get a quote on a roofing service." />
+                <meta name="msapplication-TileColor" content="#da2c30" />
+                <meta name="theme-color" content="#ffffff" />
+                <meta name="og:type" content="website" />
+                <meta name="og:url" content="https://zenith-development.com/pre-reg" />
+                <meta name="og:title" content="Roofing - Zenith Development" />
+                <meta name="og:description" content="Zenith Development has been installing quality roofs in the Greater Vancouver area since 1994. Contact us to get a quote on a roofing service." />
+                <meta name="keywords" content="Roofing, Torch On, Reroof, Shigles, Lowermainland, Surrey, Vancouver, Greater Vancouver, Metro Vancouver, residential, commercial, strata, living, business, retail, Canada, Elgin Park, King George, Crest Lane, townhouses, condos, apartments, new homes for sale, new properties for sale, listings " />
+            </Head>
 
             <Nav />
 

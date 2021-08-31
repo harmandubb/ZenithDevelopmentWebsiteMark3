@@ -22,6 +22,24 @@ export default function Res_Viewer() {
     return (
         <>
 
+            <Head>
+
+                <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=devide-width, initial-scale=1" />
+                <title>Elgin Park - Zenith Development</title>
+                <meta name="title" content="Elgin Park - Zenith Development" />
+                <meta name="description" content="Elgin Park is a commerical project that is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture overlooking King George will attract the community to the plaza." />
+                <meta name="msapplication-TileColor" content="#da2c30" />
+                <meta name="theme-color" content="#ffffff" />
+                <meta name="og:type" content="website" />
+                <meta name="og:url" content="https://zenith-development" />
+                <meta name="og:title" content="Elgin Park - Zenith Development" />
+                <meta name="og:description" content="Elgin Park is a commerical project that is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture overlooking King George will attract the community to the plaza." />
+                <meta name="keywords" content="Lowermainland, Surrey, South Surrey, business, Canada, King George, Elgin Park, Retial, banquet hall, warehouses" />
+            </Head>
+
             <Nav />
 
             {carousel && <Swiper

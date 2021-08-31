@@ -13,6 +13,23 @@ export default function Home() {
   return (
     <>
 
+      <Head>
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=devide-width, initial-scale=1" />
+        <title>Zenith Development</title>
+        <meta name="title" content="Zenith Development" />
+        <meta name="description" content="Zenith Development has been developing quality commercial and structures since 1994. Visit our site to take a look at your dream home or business space. We are excited to make your dream become a reality." />
+        <meta name="msapplication-TileColor" content="#da2c30" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="og:type" content="website" />
+        <meta name="og:url" content="https://zenith-development" />
+        <meta name="og:title" content="Zenith Development" />
+        <meta name="og:description" content="Zenith Development has been developing quality commercial and structures since 1994. Visit our site to take a look at your dream home or business space. We are excited to make your dream become a reality." />
+        <meta name="keywords" content="Lowermainland, Surrey, Vancouver, Greater Vancouver, Metro Vancouver, residential, commercial, strata, living, business, retail, Canada, Elgin Park, King George, Crest Lane, townhouses, condos, apartments, new homes for sale, new properties for sale, listings, Roofing, Torch On, Reroof, Shigles, L " />
+      </Head>
       <Nav />
       <Swiper />
 
@@ -85,12 +102,12 @@ export default function Home() {
         <div class="container px-8 mx-auto pt-2 lg:px-4">
           <div class="flex flex-wrap text-center">
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
-            <Image
-              src="/img/C2.jpg"
-              alt = "Picture of a Roof"
-              width = {800}
-              height = {280}
-              class = "object-cover object-center w-full h-40 mb-6 rounded"
+              <Image
+                src="/img/C2.jpg"
+                alt="Picture of a Roof"
+                width={800}
+                height={280}
+                class="object-cover object-center w-full h-40 mb-6 rounded"
               />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Current Projects
               </h2>
@@ -110,11 +127,11 @@ export default function Home() {
             </div>
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
               <Image
-              src="/img/Roof.jpg"
-              alt = "Picture of a Roof"
-              width = {800}
-              height = {280}
-              class = "object-cover object-center w-full h-40 mb-6 rounded"
+                src="/img/Roof.jpg"
+                alt="Picture of a Roof"
+                width={800}
+                height={280}
+                class="object-cover object-center w-full h-40 mb-6 rounded"
               />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Roofing Service
               </h2>
@@ -135,12 +152,12 @@ export default function Home() {
               </Link>
             </div>
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
-            <Image
-              src="/img/House_render.jpg"
-              alt = "Picture of a Roof"
-              width = {800}
-              height = {280}
-              class = "object-cover object-center w-full h-40 mb-6 rounded"
+              <Image
+                src="/img/House_render.jpg"
+                alt="Picture of a Roof"
+                width={800}
+                height={280}
+                class="object-cover object-center w-full h-40 mb-6 rounded"
               />
               <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Past Projects
               </h2>

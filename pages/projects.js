@@ -9,6 +9,24 @@ export default function Projects() {
     return (
         <>
 
+            <Head>
+
+                <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=devide-width, initial-scale=1" />
+                <title>Projects - Zenith Development</title>
+                <meta name="title" content="Projects - Zenith Development" />
+                <meta name="description" content="Zenith Development has been developing quality commercial and structures since 1994. Visit our site to take a look at your dream home or business space. We are excited to make your dream become a reality." />
+                <meta name="msapplication-TileColor" content="#da2c30" />
+                <meta name="theme-color" content="#ffffff" />
+                <meta name="og:type" content="website" />
+                <meta name="og:url" content="https://zenith-development" />
+                <meta name="og:title" content="Projects - Zenith Development" />
+                <meta name="og:description" content="Zenith Development has been developing quality commercial and structures since 1994. Visit our site to take a look at your dream home or business space. We are excited to make your dream become a reality." />
+                <meta name="keywords" content="Lowermainland, Surrey, Vancouver, Greater Vancouver, Metro Vancouver, residential, commercial, strata, living, business, retail, Canada, Elgin Park, King George, Crest Lane, townhouses, condos, apartments, new homes for sale, new properties for sale, listings, Roofing, Torch On, Reroof, Shigles, L " />
+            </Head>
+
             <Nav />
 
             <div class="container mx-auto lg:p-20 md:p-12 sm:p-8 p-2">

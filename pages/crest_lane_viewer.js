@@ -21,6 +21,23 @@ export default function Crest_Lane_Viewer() {
 
     return (
         <>
+            <Head>
+
+                <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=devide-width, initial-scale=1" />
+                <title>Crest Lane - Zenith Development</title>
+                <meta name="title" content="Crest Lane - Zenith Development" />
+                <meta name="description" content="Crest Lane is a residential project that is bringing townhomes and condos to Central Surrey, perfect for commuters and young families." />
+                <meta name="msapplication-TileColor" content="#da2c30" />
+                <meta name="theme-color" content="#ffffff" />
+                <meta name="og:type" content="website" />
+                <meta name="og:url" content="https://zenith-development" />
+                <meta name="og:title" content="Crest Lane - Zenith Development" />
+                <meta name="og:description" content="Crest Lane is a residential project that is bringing townhomes and condos to Central Surrey, perfect for commuters and young families." />
+                <meta name="keywords" content="Lowermainland, Surrey, centeral surrey, residential, living, Canada, King George, Crest Lane, townhouses, condos, apartments, new homes for sale, listings, 2-4 bedrooms, 1-2 bath, parking, child play area," />
+            </Head>
 
             <Nav />
 
@@ -75,16 +92,16 @@ export default function Crest_Lane_Viewer() {
 
 
 
-            <SwiperSlide>
-                <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
-                <Image
+                <SwiperSlide>
+                    <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
+                        <Image
                             src="/img/Main_82_KingGeorge_Exterior.jpg"
                             alt="Crest Lane Render"
                             height={1225}
                             width={1910}
                         />
-                </div>
-            </SwiperSlide>
+                    </div>
+                </SwiperSlide>
 
 
 
@@ -101,33 +118,33 @@ export default function Crest_Lane_Viewer() {
                     <div class=" p-6 border-r">
                         <p class="text-gray-400 sm:text-base text-sm font-semibold">
                             Phase A
-        </p>
+                        </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4 border-gray-300 border-b md:border-b-0">
                             0 of 78 <br></br> Condos sold
-        </p>
+                        </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
                             Units starting at $400,000
-        </p>
+                        </p>
                         <p class="text-gray-400 sm:text-base text-sm font-semibold mt-2">
                             Phase B
-        </p>
+                        </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4">
                             0 of 34 <br></br> Town-homes sold
-        </p>
+                        </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
                             Units starting at $1,100,000
-        </p>
+                        </p>
                     </div>
 
                     <div class="absolute -top-14 flex bg-white p-4 font-semibold z-10">
                         <div id='exterior' class="ml-2 font-semibold text-gray-900 hover:text-gray-900 pr-4  cursor-pointer" onClick={() => { interiorEterior_Selector('exterior'); setCarousel(false) }}>
                             Exterior
-</div>
+                        </div>
                         <div id='interior' class="hidden mr-4 pl-4 font-semibold text-gray-500 hover:text-gray-900 cursor-pointer" onClick={() => { interiorEterior_Selector('interior'); setCarousel(true) }}>
                             Interior
-</div>
+                        </div>
 
                     </div>
 
@@ -142,11 +159,11 @@ export default function Crest_Lane_Viewer() {
 
                             <h1 class="font-bold text-3xl xl:mb-2 mr-2">
                                 Crest Lane
-                    </h1>
+                            </h1>
 
                             <p class="font-bold text-1xl text-gray-400 lg:mt-3">
                                 modern condos and townhomes
-                    </p>
+                            </p>
 
                         </div>
 
@@ -165,10 +182,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Beds
-        </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     2 - 4
-        </p>
+                                </p>
 
                             </div>
 
@@ -180,10 +197,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Bath
-    </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     1 - 2
-    </p>
+                                </p>
                             </div>
 
                             <div class="flex mr-6 hidden xl:inline-flex">
@@ -194,10 +211,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Sq. Feet
-    </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     400
-    </p>
+                                </p>
 
                                 <div class="flex mr-6 ml-6">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="warehouse"
@@ -207,10 +224,10 @@ export default function Crest_Lane_Viewer() {
 
                                     <p class="text-gray-600 ml-2">
                                         Parking
-                    </p>
+                                    </p>
                                     <p class="font-bold ml-1">
                                         1
-                        </p>
+                                    </p>
                                 </div>
 
                             </div>
@@ -227,10 +244,10 @@ export default function Crest_Lane_Viewer() {
 
                             <p class="text-gray-600 ml-2">
                                 Sq. Feet
-    </p>
+                            </p>
                             <p class="font-bold ml-1">
                                 400
-    </p>
+                            </p>
 
                             <div class="flex mr-6 ml-6">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="warehouse"
@@ -240,10 +257,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Parking
-                    </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     1
-                        </p>
+                                </p>
                             </div>
 
                         </div>
@@ -252,8 +269,8 @@ export default function Crest_Lane_Viewer() {
                         </p>
 
                         <p class="">
-                        We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
-</p>
+                            We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
+                        </p>
                     </div>
                 </div>
 
@@ -272,13 +289,13 @@ export default function Crest_Lane_Viewer() {
                         </div>
                         <div class="">
                             <p class="text-gray-900 font-semibold">Ameneties</p>
-                            <ul class = "list-disc">
+                            <ul class="list-disc">
                                 <li class="mt-1 text-gray-500">
                                     Child Play Area
-                        </li>
+                                </li>
                                 <li class="mt-1 text-gray-500">
                                     Event Building
-                        </li>
+                                </li>
                             </ul>
 
                         </div>
@@ -286,7 +303,7 @@ export default function Crest_Lane_Viewer() {
                     <div class="absolute -top-24 right-0 flex flex-col bg-white font-semibold z-10 px-4">
                         <div class="md:block ml-2 pt-2 font-semibold text-gray-900 hover:text-gray-900 pr-2">
                             Set up a viewing:
-                            </div>
+                        </div>
 
                         <div class="py-2 mr-1 font-semibold text-gray-500 hover:text-gray-900 cursor-pointer">
 
@@ -328,7 +345,7 @@ export default function Crest_Lane_Viewer() {
 
                         <div class="mr-2 hidden" >
                             Interior/Exterior
-                    </div>
+                        </div>
 
                         <div>
 
@@ -358,7 +375,7 @@ export default function Crest_Lane_Viewer() {
                             <a href="com_viewer.html">
                                 <button class="items-center px-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
                                     pre-register
-                                    </button>
+                                </button>
                             </a>
 
 
@@ -376,17 +393,17 @@ export default function Crest_Lane_Viewer() {
                     <div class="flex narrow:flex-row flex-col">
                         <h1 class="font-bold text-3xl xl:mb-2 mr-2">
                             Crest Lane
-                    </h1>
+                        </h1>
 
                         <p class="font-bold text-1xl text-gray-400 narrow:mt-3">
                             modern condos and townhomes
-                    </p>
+                        </p>
 
                     </div>
 
                     <p class="font-bold sm:text-2xl text-xl b-6 mt-2 md:mb-0 mb-4">
                         King George Boulevard and 82nd Ave, Surrey B.C.
-                        </p>
+                    </p>
 
                     <div class="border-b">
 
@@ -401,10 +418,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Beds
-        </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     2 - 4
-        </p>
+                                </p>
 
                             </div>
 
@@ -420,10 +437,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Bath
-        </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     1 - 2
-        </p>
+                                </p>
                             </div>
 
                             <div class="sm:flex hidden mr-6">
@@ -435,10 +452,10 @@ export default function Crest_Lane_Viewer() {
 
                                     <p class="text-gray-600 ml-2">
                                         Sq. Feet
-        </p>
+                                    </p>
                                     <p class="font-bold ml-1">
                                         400
-        </p>
+                                    </p>
 
                                     <div class="flex mr-6 ml-6">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="warehouse"
@@ -448,10 +465,10 @@ export default function Crest_Lane_Viewer() {
 
                                         <p class="text-gray-600 ml-2">
                                             Parking
-                        </p>
+                                        </p>
                                         <p class="font-bold ml-1">
                                             1
-                            </p>
+                                        </p>
                                     </div>
 
                                 </div>
@@ -473,10 +490,10 @@ export default function Crest_Lane_Viewer() {
 
                             <p class="text-gray-600 ml-2">
                                 Sq. Feet
-    </p>
+                            </p>
                             <p class="font-bold ml-1">
                                 400
-    </p>
+                            </p>
 
                             <div class="flex mr-6 ml-6">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="warehouse"
@@ -486,10 +503,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-gray-600 ml-2">
                                     Parking
-                    </p>
+                                </p>
                                 <p class="font-bold ml-1">
                                     1
-                        </p>
+                                </p>
                             </div>
 
                         </div>
@@ -509,13 +526,13 @@ export default function Crest_Lane_Viewer() {
                                 </div>
                                 <div class="sm:px-8">
                                     <p class="text-black font-semibold">Ameneties</p>
-                                    <ul class = "list-disc">
+                                    <ul class="list-disc">
                                         <li class="mt-1 text-gray-500">
                                             Child Play Area
-                        </li>
+                                        </li>
                                         <li class="mt-1 text-gray-500">
                                             Event Building
-                        </li>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -531,14 +548,14 @@ export default function Crest_Lane_Viewer() {
                             <div class="p-4">
                                 <p class="text-gray-400 text-md font-semibold">
                                     Phase A
-        </p>
+                                </p>
 
                                 <p class="text-2xl font-bold border-gray-300">
                                     0 of 78 <br></br> Condos sold
-        </p>
+                                </p>
                                 <p class="text-gray-400 font-semibold">
                                     Units starting at $400,000
-        </p>
+                                </p>
 
 
                             </div>
@@ -549,10 +566,10 @@ export default function Crest_Lane_Viewer() {
 
                                 <p class="text-2xl font-bold">
                                     0 of 34 <br></br> Town-homes sold
-        </p>
+                                </p>
                                 <p class=" text-gray-400 font-semibold">
                                     Units starting at $1,100,000
-        </p>
+                                </p>
 
 
                             </div>
@@ -563,8 +580,8 @@ export default function Crest_Lane_Viewer() {
                     </div>
 
                     <p class="mt-2 pb-4">
-                    We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
-</p>
+                        We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
+                    </p>
 
                 </div>
             </div>
