@@ -75,7 +75,7 @@ const Main = () => {
 
 
                                 <span>
-                                    <Link href="/crest_lane_viewer">
+                                    <Link href="/Crest-Lane">
 
                                         <a>
                                             <button class="items-center px-2 py-2 ml-20 sm:ml-28 mb-4 mr-6 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
@@ -142,7 +142,7 @@ const Main = () => {
 
 
                                 <span>
-                                    <Link href="/elgin_park_viewer">
+                                    <Link href="/Elgin-Park">
                                         <a>
                                             <button class="items-center px-2 py-2 ml-32 sm:ml-40 mb-4 mr-6 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none border-b">
                                                 Explore
