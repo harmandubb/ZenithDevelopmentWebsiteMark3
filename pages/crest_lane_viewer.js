@@ -96,7 +96,7 @@ export default function Crest_Lane_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/Main_82_KingGeorge_Exterior.jpg"
-                            alt="Crest Lane Render"
+                            alt="Crest Lane, modern residential townhomes and condos in Surrey"
                             height={1225}
                             width={1910}
                         />
@@ -161,15 +161,15 @@ export default function Crest_Lane_Viewer() {
                                 Crest Lane
                             </h1>
 
-                            <p class="font-bold text-1xl text-gray-400 lg:mt-3">
+                            <h2 class="font-bold text-1xl text-gray-400 lg:mt-3">
                                 modern condos and townhomes
-                            </p>
+                            </h2>
 
                         </div>
 
-                        <p class="font-bold text-2xl mb-6 mt-2">
+                        <h2 class="font-bold text-2xl mb-6 mt-2">
                             King George and 82nd Ave, Surrey B.C.
-                        </p>
+                        </h2>
 
                         <div class="flex items-center justify-start mb-8 ">
 
@@ -395,15 +395,15 @@ export default function Crest_Lane_Viewer() {
                             Crest Lane
                         </h1>
 
-                        <p class="font-bold text-1xl text-gray-400 narrow:mt-3">
+                        <h2 class="font-bold text-1xl text-gray-400 narrow:mt-3">
                             modern condos and townhomes
-                        </p>
+                        </h2>
 
                     </div>
 
-                    <p class="font-bold sm:text-2xl text-xl b-6 mt-2 md:mb-0 mb-4">
+                    <h2 class="font-bold sm:text-2xl text-xl b-6 mt-2 md:mb-0 mb-4">
                         King George Boulevard and 82nd Ave, Surrey B.C.
-                    </p>
+                    </h2>
 
                     <div class="border-b">
 

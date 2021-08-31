@@ -86,7 +86,7 @@ export default function Home() {
               <Image
                 class="hidden md:block object-cover object-center rounded-lg"
                 src="/img/82_KingGeorge_Exterior.jpg"
-                alt="Random Picture"
+                alt="Crest Lane, modern residential townhomes and condos in Surrey"
                 width={800}
                 height={600}
               />
@@ -104,13 +104,13 @@ export default function Home() {
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
               <Image
                 src="/img/C2.jpg"
-                alt="Picture of a Roof"
+                alt="Elgin Park: commerical retail and office spaces in South Surrey"
                 width={800}
                 height={280}
                 class="object-cover object-center w-full h-40 mb-6 rounded"
               />
-              <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Current Projects
-              </h2>
+              <h1 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Current Projects
+              </h1>
               <p class="mb-4 text-base leading-relaxed"> Elgin Park is a commercial project in South Surrey and is ready for leasing.</p>
               <Link href="/projects">
                 <a
@@ -133,8 +133,8 @@ export default function Home() {
                 height={280}
                 class="object-cover object-center w-full h-40 mb-6 rounded"
               />
-              <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Roofing Service
-              </h2>
+              <h1 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Roofing Service
+              </h1>
               <p class="mb-4 text-base leading-relaxed">
                 Installing roofs for 30 years on residential, strata, and commercial projects in the Lower Mainland.
               </p>
@@ -154,13 +154,13 @@ export default function Home() {
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
               <Image
                 src="/img/House_render.jpg"
-                alt="Picture of a Roof"
+                alt="Vancouver residential detached house"
                 width={800}
                 height={280}
                 class="object-cover object-center w-full h-40 mb-6 rounded"
               />
-              <h2 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Past Projects
-              </h2>
+              <h1 class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"> Past Projects
+              </h1>
               <p class="mb-4 text-base leading-relaxed">
                 Checkout our residential and strata projects starting from 2015
               </p>

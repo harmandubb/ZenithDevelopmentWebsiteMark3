@@ -55,7 +55,7 @@ export default function Res_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/SurreyBanquetView01.jpg"
-                            alt="Picture of a Roof"
+                            alt="Elgin Park: Banquet hall interior picture showing entrance to the hall"
                             width={1910}
                             height={1000}
                             class="object-cover object-center w-full h-40 mb-4"
@@ -67,7 +67,7 @@ export default function Res_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/SurreyBanquetView02.jpg"
-                            alt="Picture of a Roof"
+                            alt="Elgin Park: Banquet hall interior picture showing eating table arrangement"
                             width={1910}
                             height={1000}
                             class="object-cover object-center w-full h-40 mb-4"
@@ -79,7 +79,7 @@ export default function Res_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24n'>
                         <Image
                             src="/img/SurreyBanquetView03.jpg"
-                            alt="Picture of a Roof"
+                            alt="Elgin Park: Banquet hall interior picture showing dance floor"
                             width={1910}
                             height={1400}
                             class="object-cover object-center w-full h-40 mb-4"
@@ -108,7 +108,7 @@ export default function Res_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/ELGIN_PARK_VIEWER_C3.jpg"
-                            alt="Picture of a Roof"
+                            alt="Elgin Park: commerical retail and office spaces in South Surrey"
                             width={1910}
                             height={1000}
                             class="object-cover object-center w-full h-40 mb-4"
@@ -121,7 +121,7 @@ export default function Res_Viewer() {
                     <div class='object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/C3.jpg"
-                            alt="Picture of a Roof"
+                            alt="Elgin Park side picture of banqueut hall and restaurant spaces"
                             width={1910}
                             height={1000}
                             class="object-cover object-center w-full h-40 mb-4"
@@ -188,15 +188,15 @@ export default function Res_Viewer() {
                                 Elgin Park
                             </h1>
 
-                            <p class="font-bold text-1xl text-gray-400 lg:mt-3">
+                            <h2 class="font-bold text-1xl text-gray-400 lg:mt-3">
                                 commercial spaces
-                            </p>
+                            </h2>
 
                         </div>
 
-                        <p class="font-bold text-2xl mb-6 mt-2">
+                        <h2 class="font-bold text-2xl mb-6 mt-2">
                             3020 148 St, Surrey B.C.
-                        </p>
+                        </h2>
 
                         <p class="">
 
@@ -334,15 +334,15 @@ export default function Res_Viewer() {
                             Elgin Park
                         </h1>
 
-                        <p class="font-bold text-1xl text-gray-400 mt-3">
+                        <h2 class="font-bold text-1xl text-gray-400 mt-3">
                             commercial spaces
-                        </p>
+                        </h2>
 
                     </div>
 
-                    <p class="font-bold sm:text-2xl text-xl b-6 mt-2 md:mb-0 mb-4">
+                    <h2 class="font-bold sm:text-2xl text-xl b-6 mt-2 md:mb-0 mb-4">
                         3020 148 St, Surrey B.C.
-                    </p>
+                    </h2>
 
                     <div class="border-b">
 
