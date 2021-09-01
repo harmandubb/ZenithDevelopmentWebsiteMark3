@@ -35,9 +35,13 @@ export default function Pre_Reg() {
 
         <section class="lg:mt-32 mt-36 text-gray-700 body-font">
           <div class='text-gray-900'>
-            <p class="text-4xl font-bold tracking-tighter text-center text-blue-800  lg:text-5xl title-font">
+            <h1 class="text-4xl font-bold tracking-tighter text-center text-blue-800  lg:text-5xl title-font">
               Hi! Ready to Pre-Register for a viewing?
+            </h1>
+            <p class="text-md tracking-tighter text-center text-blue-800  lg:text-xl mt-2">
+                Being Pre-Registered means that you will be contacted by our team to either view, buy, or lease a property as soon as possible.
             </p>
+
           </div>
         </section>
 
