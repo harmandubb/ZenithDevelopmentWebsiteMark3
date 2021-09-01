@@ -33,7 +33,7 @@ const Main = () => {
                             src="/img/Main_82_KingGeorge_Exterior.jpg"
                             alt="Crest Lane Render"
                             height={1320}
-                            width={1910}
+                            width={1930}
                             layout="responsive"
                             class=""
                         />
