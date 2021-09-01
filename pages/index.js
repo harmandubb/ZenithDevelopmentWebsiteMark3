@@ -8,6 +8,8 @@ import Swiper from '../components/Main_Carousel'
 
 import Nav from '../components/Nav'
 
+import tailwindcss from 'tailwindcss'
+
 
 export default function Home() {
   return (
