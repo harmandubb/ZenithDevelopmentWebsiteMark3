@@ -100,7 +100,7 @@ const Main = () => {
                             src="/img/Main_C2.jpg"
                             alt="Crest Lane Render"
                             height={1310}
-                            width={1810}
+                            width={1790}
                             layout="responsive"
                             class="object-cover"
                         />
