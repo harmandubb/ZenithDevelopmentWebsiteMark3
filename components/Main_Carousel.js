@@ -32,8 +32,8 @@ const Main = () => {
                         <Image
                             src="/img/Main_82_KingGeorge_Exterior.jpg"
                             alt="Crest Lane Render"
-                            height={1400}
-                            width={2000}
+                            height={1300}
+                            width={1800}
                             layout="responsive"
                             class=""
                         />
@@ -93,18 +93,18 @@ const Main = () => {
                 </SwiperSlide>
 
 
-{/*
+
                 <SwiperSlide>
                     <div class='z-40 object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
                             src="/img/Main_C2.jpg"
                             alt="Crest Lane Render"
-                            height={1320}
-                            width={1910}
+                            height={1310}
+                            width={1810}
                             layout="responsive"
                             class="object-cover"
                         />
-                        {
+
                         <div class="hidden sm:block absolute top-36 left-16 sm:top-52 sm:left-40 bg-gray-900 bg-opacity-60 rounded-lg">
                             <h1 class="text-white text-3xl mr-4 ml-4 mt-4 font-bold">
                                 Elgin Park
@@ -156,7 +156,7 @@ const Main = () => {
 
                         </div>
                     </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
 
             </Swiper>
         </>
