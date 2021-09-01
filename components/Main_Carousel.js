@@ -93,7 +93,7 @@ const Main = () => {
                 </SwiperSlide>
 
 
-
+{/*
                 <SwiperSlide>
                     <div class='z-40 object-center w-screen max-h-screen lg:mt-0 mt-24'>
                         <Image
@@ -104,7 +104,7 @@ const Main = () => {
                             layout="responsive"
                             class="object-cover"
                         />
-                        {/* <img class='object-cover' src="img/Main_C2.jpg"></img> */}
+                        {
                         <div class="hidden sm:block absolute top-36 left-16 sm:top-52 sm:left-40 bg-gray-900 bg-opacity-60 rounded-lg">
                             <h1 class="text-white text-3xl mr-4 ml-4 mt-4 font-bold">
                                 Elgin Park
@@ -156,7 +156,7 @@ const Main = () => {
 
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
             </Swiper>
         </>
