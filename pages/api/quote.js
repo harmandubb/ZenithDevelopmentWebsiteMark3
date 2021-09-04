@@ -1,5 +1,5 @@
 const { google } = require('googleapis');
-const keys = require('/Credentials/keys.json');
+const keys = require('/pages/api/Credentials/keys.json');
 const today = new Date();
 
 export default async function handler(req, res) {
@@ -24,7 +24,7 @@ export default async function handler(req, res) {
             await gsrun(client, req.body.Name, req.body.Email)
                 .then((google_res) => {
                     const temp = google_res;
-                    res.json({response:temp})
+                    res.json({ response: temp })
                 }
                 ).catch((err) => {
                     console.log("An error has occured at the google response", err);

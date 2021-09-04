@@ -1,5 +1,5 @@
 const { google } = require('googleapis');
-const keys = require('/Credentials/keys.json');
+const keys = require('/pages/api/Credentials/keys.json');
 const today = new Date();
 
 
