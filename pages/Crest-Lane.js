@@ -33,7 +33,7 @@ export default function Crest_Lane_Viewer() {
                 <meta name="msapplication-TileColor" content="#da2c30" />
                 <meta name="theme-color" content="#ffffff" />
                 <meta name="og:type" content="website" />
-                <meta property = "og:locale" content = "en_US"/>
+                <meta property="og:locale" content="en_US" />
                 <meta name="og:url" content="https://zenith-development" />
                 <meta name="og:title" content="Crest Lane - Zenith Development" />
                 <meta name="og:description" content="Crest Lane is a residential project that is bringing townhomes and condos to Central Surrey, perfect for commuters and young families." />
@@ -125,7 +125,7 @@ export default function Crest_Lane_Viewer() {
                             0 of 78 <br></br> Condos sold
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
-                            Units starting at $400,000
+
                         </p>
                         <p class="text-gray-400 sm:text-base text-sm font-semibold mt-2">
                             Phase B
@@ -135,7 +135,7 @@ export default function Crest_Lane_Viewer() {
                             0 of 34 <br></br> Town-homes sold
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
-                            Units starting at $1,100,000
+
                         </p>
                     </div>
 
@@ -285,7 +285,7 @@ export default function Crest_Lane_Viewer() {
                         </div>
 
                         <div class="">
-                            <p class="text-gray-900 font-semibold">Completion</p>
+                            <p class="text-gray-900 font-semibold">Completion Year</p>
                             <p class="mt-1 text-gray-500">2023</p>
                         </div>
                         <div class="">
@@ -446,7 +446,7 @@ export default function Crest_Lane_Viewer() {
 
                             <div class="sm:flex hidden mr-6">
                                 <div class="flex justify-center">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="vector-square"
+                                    {/* <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="vector-square"
                                         class="svg-inline--fa fa-vector-square fa-w-16 w-6 h-6 text-gray-400" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M512 128V32c0-17.67-14.33-32-32-32h-96c-17.67 0-32 14.33-32 32H160c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v96c0 17.67 14.33 32 32 32v192c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32h192c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32V160c17.67 0 32-14.33 32-32zm-96-64h32v32h-32V64zM64 64h32v32H64V64zm32 384H64v-32h32v32zm352 0h-32v-32h32v32zm-32-96h-32c-17.67 0-32 14.33-32 32v32H160v-32c0-17.67-14.33-32-32-32H96V160h32c17.67 0 32-14.33 32-32V96h192v32c0 17.67 14.33 32 32 32h32v192z"></path>
                                     </svg>
@@ -456,7 +456,7 @@ export default function Crest_Lane_Viewer() {
                                     </p>
                                     <p class="font-bold ml-1">
                                         400
-                                    </p>
+                                    </p> */}
 
                                     <div class="flex mr-6 ml-6">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="warehouse"
@@ -555,7 +555,7 @@ export default function Crest_Lane_Viewer() {
                                     0 of 78 <br></br> Condos sold
                                 </p>
                                 <p class="text-gray-400 font-semibold">
-                                    Units starting at $400,000
+
                                 </p>
 
 
@@ -569,7 +569,7 @@ export default function Crest_Lane_Viewer() {
                                     0 of 34 <br></br> Town-homes sold
                                 </p>
                                 <p class=" text-gray-400 font-semibold">
-                                    Units starting at $1,100,000
+
                                 </p>
 
 
