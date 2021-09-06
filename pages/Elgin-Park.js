@@ -34,7 +34,7 @@ export default function Res_Viewer() {
                 <meta name="msapplication-TileColor" content="#da2c30" />
                 <meta name="theme-color" content="#ffffff" />
                 <meta name="og:type" content="website" />
-                <meta property = "og:locale" content = "en_US"/>
+                <meta property="og:locale" content="en_US" />
                 <meta name="og:url" content="https://zenith-development" />
                 <meta name="og:title" content="Elgin Park - Zenith Development" />
                 <meta name="og:description" content="Elgin Park is a commerical project that is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture overlooking King George will attract the community to the plaza." />
@@ -150,7 +150,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4 border-gray-300 border-b md:border-b-0">
-                            0 of 10 <br></br>  units Sold
+                            6 of 10 <br></br>  units leased
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
                             Restaurant, banquet hall, and retail
@@ -160,7 +160,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4">
-                            0 of 40 <br></br> units sold
+                            17 of 40 <br></br> units leased
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
                             Office and retail
@@ -221,8 +221,8 @@ export default function Res_Viewer() {
                     <div class="grid grid-cols-2 gap-6 py-6 px-8">
 
                         <div class="">
-                            <p class="text-gray-900 font-semibold">Year Built</p>
-                            <p class="mt-1 text-gray-500">2023</p>
+                            <p class="text-gray-900 font-semibold">Completion Year</p>
+                            <p class="mt-1 text-gray-500">2022</p>
                         </div>
 
                         <div class="">
@@ -352,8 +352,8 @@ export default function Res_Viewer() {
 
 
                                 <div class="">
-                                    <p class="text-gray-900 font-semibold">Year Built</p>
-                                    <p class="mt-1 text-gray-500">2023</p>
+                                    <p class="text-gray-900 font-semibold">Completion Year</p>
+                                    <p class="mt-1 text-gray-500">2022</p>
                                 </div>
 
                                 <div class="">
@@ -389,7 +389,7 @@ export default function Res_Viewer() {
                                 </p>
 
                                 <p class="text-2xl font-bold border-gray-300">
-                                    0 of 10 <br></br> units sold
+                                    6 of 10 <br></br> units leased
                                 </p>
                                 <p class="text-gray-400 font-semibold">
                                     Restaurant, banquet hall, and retail
@@ -403,7 +403,7 @@ export default function Res_Viewer() {
                                     Phase B</p>
 
                                 <p class="text-2xl font-bold">
-                                    0 of 40 <br></br> units sold
+                                    17 of 40 <br></br> units leased
                                 </p>
                                 <p class=" text-gray-400 font-semibold">
                                     Office and retail
