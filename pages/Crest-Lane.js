@@ -270,7 +270,7 @@ export default function Crest_Lane_Viewer() {
                         </p>
 
                         <p class="">
-                            We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
+                            We are bringing modern townhomes and condos to the Surrey Central area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city shopping experience is nearby to provide you with groceries, cloths and tech needs alongside great cultural restaurants.
                         </p>
                     </div>
                 </div>
@@ -581,7 +581,7 @@ export default function Crest_Lane_Viewer() {
                     </div>
 
                     <p class="mt-2 pb-4">
-                        We are bringing modern townhomes and condos to the central Surrey area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making Crest Lane a perfect location for commuters.  Central city is nearby to provide residence the best shopping experience for everything including groceries, cloths and tech.
+                        We are bringing modern townhomes and condos to the Surrey Central area. Crest Lane is at the heart of all that Surrey has to offer. The King George Skytrain is a 10-minute bus ride away, making it a perfect location for commuters. The central city shopping experience is nearby to provide you with groceries, cloths and tech needs alongside great cultural restaurants.
                     </p>
 
                 </div>
