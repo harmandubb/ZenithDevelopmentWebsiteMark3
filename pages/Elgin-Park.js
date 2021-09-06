@@ -34,6 +34,7 @@ export default function Res_Viewer() {
                 <meta name="msapplication-TileColor" content="#da2c30" />
                 <meta name="theme-color" content="#ffffff" />
                 <meta name="og:type" content="website" />
+                <meta property = "og:locale" content = "en_US"/>
                 <meta name="og:url" content="https://zenith-development" />
                 <meta name="og:title" content="Elgin Park - Zenith Development" />
                 <meta name="og:description" content="Elgin Park is a commerical project that is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture overlooking King George will attract the community to the plaza." />

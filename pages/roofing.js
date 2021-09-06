@@ -17,9 +17,10 @@ export default function Roofing() {
                 <meta name="viewport" content="width=devide-width, initial-scale=1" />
                 <title>Roofing - Zenith Development</title>
                 <meta name="title" content="Roofing - Zenith Development" />
-                <meta name="description" content="Zenith Development has been installing quality roofs in the Greater Vancouver area since 1994. Contact us to get a quote on a roofing service." />
+                <meta name="description" content="Zenith Development has been installing quality roofs for residentail, commerical, and strata properties in the Greater Vancouver area since 1994. Contact us to get a quote on a roofing service." />
                 <meta name="msapplication-TileColor" content="#da2c30" />
                 <meta name="theme-color" content="#ffffff" />
+                <meta property = "og:locale" content = "en_US"/>
                 <meta name="og:type" content="website" />
                 <meta name="og:url" content="https://zenith-development.com/pre-reg" />
                 <meta name="og:title" content="Roofing - Zenith Development" />

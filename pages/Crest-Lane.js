@@ -33,6 +33,7 @@ export default function Crest_Lane_Viewer() {
                 <meta name="msapplication-TileColor" content="#da2c30" />
                 <meta name="theme-color" content="#ffffff" />
                 <meta name="og:type" content="website" />
+                <meta property = "og:locale" content = "en_US"/>
                 <meta name="og:url" content="https://zenith-development" />
                 <meta name="og:title" content="Crest Lane - Zenith Development" />
                 <meta name="og:description" content="Crest Lane is a residential project that is bringing townhomes and condos to Central Surrey, perfect for commuters and young families." />
