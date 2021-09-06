@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da2c30" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="og:type" content="website" />
-        <meta property = "og:locale" content = "en_US"/>
+        <meta property="og:locale" content="en_US" />
         <meta name="og:url" content="https://zenith-development" />
         <meta name="og:title" content="Zenith Development" />
         <meta name="og:description" content="Zenith Development has been developing quality commercial and structures since 1994. Visit our site to take a look at your dream home or business space. We are excited to make your dream become a reality." />
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div class="px-8 py-4 lg:w-1/3 md:w-full">
               <Image
-                src="/img/Elgin Park Roofing.jpg"
+                src="/img/C2.jpg"
                 alt="Picture of a Roof"
                 width={800}
                 height={280}
