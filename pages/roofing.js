@@ -110,8 +110,8 @@ export default function Roofing() {
     )
 }
 
-<div class="flex justify-center">
+{/* <div class="flex justify-center">
     <button class="inline-flex px-6 py-2 ml-4 font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
         Get a Quote
     </button>
-</div>
+</div> */}

@@ -15,7 +15,6 @@ import "swiper/components/navigation/navigation.min.css"
 
 SwiperCore.use([Navigation, Pagination]);
 
-
 export default function Res_Viewer() {
     const [carousel, setCarousel] = useState(false);
 
@@ -140,7 +139,7 @@ export default function Res_Viewer() {
 
             </Swiper>}
 
-            <div class="flex divide-x border-t z-20 hidden md:inline-flex">
+            <div class="flex divide-x border-t border-b z-20 hidden md:inline-flex">
 
 
                 <div class="relative  w-1/5 lg:w-1/6 border-gray-500">
@@ -429,6 +428,173 @@ export default function Res_Viewer() {
 
 
                 </div>
+            </div>
+
+            <div>
+            <section class="text-gray-700 ">
+            <div class="flex flex-col items-start text-left w-80 lg:pl-12 md:pl-16 lg:hidden">
+                        <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                            Building B
+                            <br></br>
+                        </h1>
+
+                        <div class="grid gap4 grid-cols-1 grid-rows-3">
+                            {/* First row of the grid */}
+                            <span> 
+                                <div>
+                                    <p class="flex mb-2 text-gray-600"><span
+                                    class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                        height="24">
+                                        <path fill="none" d="M0 0h24v24H0z" />
+                                        <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                                    </svg>
+                                </span>Unit 101 - 723 SF</p>
+                                </div>
+                            
+                            </span>
+
+                            {/* Secound row of the grid */}
+                        </div>
+
+                        
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg></span>Unit 102 - 1661 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 103 - 1648 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 104 - 1652 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 105 - 3256 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 106 - 1565 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 107 - 1449 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 108 - 729 SF</p>
+
+
+                    </div>
+
+                <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
+                    <div class="w-full h-full mb-4">
+                        <img class="object-cover object-center rounded" alt="hero"
+                            src="/img/Building_B_Floor_Plan.jpg"></img>
+                    </div>
+                    <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
+                        <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                            Building B
+                            <br></br>
+                        </h1>
+
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 101 - 723 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg></span>Unit 102 - 1661 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 103 - 1648 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 104 - 1652 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 105 - 3256 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 106 - 1565 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 107 - 1449 SF</p>
+                        <p class="flex mb-2 text-gray-600"><span
+                            class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                            </svg>
+                        </span>Unit 108 - 729 SF</p>
+                    </div>
+                </div>
+
+            </section>
             </div>
 
 
