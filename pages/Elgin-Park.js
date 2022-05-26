@@ -149,7 +149,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4 border-gray-300 border-b md:border-b-0">
-                            6 of 10 <br></br>  units leased
+                            7 of 10 <br></br>  units leased
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold pb-4 border-gray-300 border-b">
                             Restaurant, banquet hall, and retail
@@ -159,7 +159,7 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="lg:text-4xl md:text-2xl font-bold mr-4">
-                            17 of 40 <br></br> units leased
+                            9 of 51 <br></br> units leased
                         </p>
                         <p class="hidden md:block text-gray-400 font-semibold">
                             Office and retail
@@ -203,10 +203,10 @@ export default function Res_Viewer() {
                         </p>
 
                         <p class="mb-2">
-                            Elgin Park is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture outlooking 148 St will attract the community to the plaza. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will consists of a combination of retail and office units.
+                            Elgin Park is bringing restaurants, retail stores, offices and a banquet hall to South Surrey. The modern architecture outlooking King George Blvd will attract the community to the plaza. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will consists of a combination of retail and office units.
                         </p>
                         <p class="mb-2">
-                            The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make entering and exiting the plaza easy, even during peak hours.
+                            The underground parking and the outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make entering and exiting the plaza easy, even during peak hours.
                         </p>
                         <p>
                             We anticipate Elgin Park will be a center where people meet to work, play, and eat. Pre-register today to become a part of this amazing opportunity.                        </p>
@@ -388,7 +388,7 @@ export default function Res_Viewer() {
                                 </p>
 
                                 <p class="text-2xl font-bold border-gray-300">
-                                    6 of 10 <br></br> units leased
+                                    7 of 10 <br></br> units leased
                                 </p>
                                 <p class="text-gray-400 font-semibold">
                                     Restaurant, banquet hall, and retail
@@ -402,7 +402,7 @@ export default function Res_Viewer() {
                                     Phase B</p>
 
                                 <p class="text-2xl font-bold">
-                                    17 of 40 <br></br> units leased
+                                    9 of 51 <br></br> units leased
                                 </p>
                                 <p class=" text-gray-400 font-semibold">
                                     Office and retail
@@ -417,10 +417,10 @@ export default function Res_Viewer() {
                     </div>
 
                     <p class="mb-2 mt-4">
-                        Elgin Park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking onto 148 St will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
+                        Elgin Park is bringing restaurants, retails stores, offices and a banquet hall to South Surrey. The modern architecture outlooking King George Blvd will attract the community to the area. Phase A will consist of a restaurant building and another building with a banquet hall on the second floor and retail units at the base. Phase B will bring a combination of retail and office units.
                     </p>
                     <p class="mb-2">
-                        The underground parking in combination with outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.
+                        The underground parking in and the outdoor parking will have more than 300 parking spots available for use. Two access points to the plaza are designed to keep traffic moving and can make traversing the area easy even during peak hours.
                     </p>
                     <p>
                         We anticipate Elgin Park will be a center where people meet to work, play, and eat. Pre-register today to become apart of this amazing opportunity.
@@ -428,6 +428,79 @@ export default function Res_Viewer() {
 
 
                 </div>
+            </div>
+
+            {/* Building C floor plans */}
+            <div>
+                <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
+                    <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
+                                <h1 class="flex justify-center items-center mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
+                                    Building A
+                                    <br></br>
+                                </h1>
+
+                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid */}
+                                    <div class="sm:block flex-col pl-4 justify-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 101 - 2867 SF </span> <span class="inline">  </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 102 - 3001 SF </span> <span class="inline">  </span>
+                                            </p>                                 
+                                        </div>
+
+                                    </div>
+                                    
+                                    {/* Secound row of the grid */}
+                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                        <span class="inline font-bold"> NOTE: </span> <span class="inline"> The interior layout is subject to change based on tenant needs.</span>
+                                        </p>
+                                    </div>
+                                        
+
+                                    </div>
+                                    
+                                </div>
+                                
+                    </div>
+
+                    <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
+                        
+                        <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
+                            <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                                Building A
+                                <br></br>
+                            </h1>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 101 -  2867 SF </span> <span class="inline"> </span>
+                            </p>
+                            
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 102 - 3001 SF </span> <span class="inline">  </span>
+                            </p>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline font-bold"> NOTE: </span> <span class="inline"> The interior layout is subject to change based on tenant needs.</span>
+                            </p>
+
+                        </div>
+
+                        <div class="w-full h-full mb-4">
+                            <img class="object-cover object-center rounded max-h-fit" alt="hero"
+                                src="/img/Building_A_Floor_Plan.jpg"></img>
+                        </div>
+                    </div>
+                </section>
             </div>
             
             {/* Building B Floor plans*/}
