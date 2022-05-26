@@ -554,7 +554,7 @@ export default function Res_Viewer() {
                 <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
                     <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
                                 <h1 class="flex justify-center items-center mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
-                                    Building C
+                                    Building C - Main Floor
                                     <br></br>
                                 </h1>
 
@@ -564,59 +564,259 @@ export default function Res_Viewer() {
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 101 - 1264 SF </span> <span class="inline">  </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 102 - 1171 SF </span> <span class="inline">  </span>
                                             </p>
                                             
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 103 - 1648 SF  </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 103 - 1172 SF  </span> <span class="inline">  </span>
                                             </p>
                                         
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 104 - 1109 SF </span> <span class="inline">  </span>
                                             </p>
                                         </div>
 
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 105 - 1043 SF </span> <span class="inline">  </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 106 - 1043 SF </span> <span class="inline"> &nbsp; </span>
+                                            </p>
+                                            
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 107 - 706 SF  </span> <span class="inline">  </span>
+                                            </p>     
+                                        </div>
+
                                     </div>
+                                    
                                     {/* Secound row of the grid */}
+                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 108 - 682 SF </span> <span class="inline"> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 109 - 1560 SF </span> <span class="inline">  </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 110 - 1901 SF </span> <span class="inline">  </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline "> Unit 111 - 1447 SF </span> <span class="inline">  </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline line-through"> Unit 112 - 1270 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline line-through"> Unit 113 - 926 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                        </p>
+                                    </div>
+                                        
+
+                                    </div>
+                                    
+                                </div>
+                                
+                    </div>
+
+                    <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
+                        
+                        <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
+                            <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                                Building C - Main Floor
+                                <br></br>
+                            </h1>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 101 - 1264 SF </span> <span class="inline"> </span>
+                            </p>
+                            
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 102 - 1171 SF </span> <span class="inline">  </span>
+                            </p>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 103 - 1172 SF </span> <span class="inline"> </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 104 - 1172 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 105 - 1109 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600">
+                                <span class="inline "> Unit 106 - 1043 SF </span> <span class="inline"> </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 107 - 706 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 108 - 682 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 109 - 1560 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 110 - 1901 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 111 - 1447 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline line-through"> Unit 112 - 1270 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline line-through"> Unit 113 - 926 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                            </p>
+                        </div>
+
+                        <div class="w-full h-full mb-4">
+                            <img class="object-cover object-center rounded max-h-fit" alt="hero"
+                                src="/img/Building_C_Floor_1_Plan.jpg"></img>
+                        </div>
+                    </div>
+
+                    
+
+                </section>
+            </div>
+
+            {/* Building C floor 2 plans */}
+            <div>
+                <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
+                    <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
+                                <h1 class="flex justify-center items-center mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
+                                    Building C - 2nd Floor
+                                    <br></br>
+                                </h1>
+
+                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid */}
+                                    <div class="sm:block flex-col pl-4 justify-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 201 - 1169 SF </span> <span class="inline">  </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 202 - 953 SF </span> <span class="inline">  </span>
+                                            </p>
+                                            
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 203 - 853 SF  </span> <span class="inline"> </span>
+                                            </p>
+                                        
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 204 - 953 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                    
+                                    
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline "> Unit 205 - 890 SF </span> <span class="inline"> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 206 - 1004 SF </span> <span class="inline"> &nbsp; </span>
+                                        </p>
+                                        
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 207 - 814 SF  </span> <span class="inline"> </span>
+                                        </p>
+                                    
+                                    </div>
+
+                                    </div>
+
+                                        {/* Secound row of the grid */}
                                     <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline "> Unit 208 - 797 SF </span> <span class="inline"> </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline"> Unit 106 - 1565 SF </span> <span class="inline"> &nbsp; </span>
+                                                <span class="inline "> Unit 209 - 1748 SF </span> <span class="inline"> </span>
                                             </p>
-                                            
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 107 - 1449 SF  </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline "> Unit 210 - 1546 SF </span> <span class="inline"> </span>
                                             </p>
-                                        
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 108 - 729 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline "> Unit 211 - 1630 SF </span> <span class="inline"> </span>
                                             </p>
-                                        
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 212 - 981 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+                                    
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 213 - 1384 SF </span> <span class="inline"> </span>
+                                            </p>
                                         </div>
 
                                     </div>
@@ -626,47 +826,237 @@ export default function Res_Viewer() {
                     </div>
 
                     <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
-                        <div class="w-full h-full mb-4">
-                            <img class="object-cover object-center rounded max-h-fit" alt="hero"
-                                src="/img/Building_B_Floor_Plan.jpg"></img>
-                        </div>
+                        
                         <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
                             <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
-                                Building B
+                                Building C - 2nd Floor
                                 <br></br>
                             </h1>
 
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 201 - 1169 SF </span> <span class="inline"> </span>
                             </p>
                             
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 202 - 953 SF  </span> <span class="inline">  </span>
                             </p>
 
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 103 - 1648 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 203 - 853 SF</span> <span class="inline"> </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 204 - 953 SF</span> <span class="inline">  </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 205 - 890 SF </span> <span class="inline">  </span>
                             </p>
                             <p class="flex mb-2 text-gray-600">
-                                <span class="inline "> Unit 106 - 1565 SF </span> <span class="inline"> </span>
+                                <span class="inline "> Unit 206 - 1004 SF </span> <span class="inline"> </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 107 - 1449 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 207 - 814 SF </span> <span class="inline">  </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline line-through"> Unit 108 - 729 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                <span class="inline"> Unit 208 - 797 SF </span> <span class="inline">  </span>
                             </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 209 - 1748 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 210 - 1546 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 211 - 1630 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 212 - 981 SF </span> <span class="inline"> </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 213 - 1384 SF </span> <span class="inline">  </span>
+                            </p>
+                        </div>
+
+                        <div class="w-full h-full mb-4">
+                            <img class="object-cover object-center rounded max-h-fit" alt="Elgin Park Building C 2nd Floor"
+                                src="img/Building_C_Floor_2_Plan.jpg"></img>
                         </div>
                     </div>
 
+                    
+
                 </section>
             </div>
+
+            {/* Building C floor 3 plans */}
+            <div>
+                <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
+                    <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
+                                <h1 class="flex justify-center items-center mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
+                                    Building C - 3rd Floor
+                                    <br></br>
+                                </h1>
+
+                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid */}
+                                    <div class="sm:block flex-col pl-4 justify-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 301 - 1169 SF </span> <span class="inline">  </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 302 - 953 SF </span> <span class="inline">  </span>
+                                            </p>
+                                            
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 303 - 953 SF  </span> <span class="inline"> </span>
+                                            </p>
+                                        
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 304 - 953 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                    
+                                    
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline "> Unit 305 - 890 SF </span> <span class="inline"> </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline line-through"> Unit 306 - 886 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                        </p>
+                                        
+                                    </div>
+
+                                    <div class="flex-1">
+                                        <p class="flex mb-2 text-gray-600 px-4">
+                                            <span class="inline"> Unit 307 - 758 SF  </span> <span class="inline"> </span>
+                                        </p>
+                                    
+                                    </div>
+
+                                    </div>
+
+                                        {/* Secound row of the grid */}
+                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 308 - 613 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 309 - 1722 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 310 - 1101 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 311 - 1389 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 312 - 981 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+                                    
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline "> Unit 313 - 1385 SF </span> <span class="inline"> </span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                                
+                    </div>
+
+                    <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
+                        
+                        <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
+                            <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                                Building C - 3rd Floor
+                                <br></br>
+                            </h1>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 301 - 1169 SF </span> <span class="inline"> </span>
+                            </p>
+                            
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 302 - 953 SF  </span> <span class="inline">  </span>
+                            </p>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 303 - 953 SF</span> <span class="inline"> </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 304 - 953 SF</span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 305 - 890 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600">
+                            <span class="inline line-through"> Unit 306 - 886 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 307 - 758 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 308 - 613 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 309 - 1722 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 310 - 1101 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 311 - 1389 SF </span> <span class="inline">  </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 312 - 981 SF </span> <span class="inline"> </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 313 - 1385 SF </span> <span class="inline">  </span>
+                            </p>
+                        </div>
+
+                        <div class="w-full h-full mb-4">
+                            <img class="object-cover object-center rounded max-h-fit" alt="Elgin Park Building C 2nd Floor"
+                                src="img/Building_C_Floor_3_Plan.jpg"></img>
+                        </div>
+                    </div>
+
+                    
+
+                </section>
+            </div>
+
 
 
 
