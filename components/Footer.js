@@ -18,16 +18,24 @@ const Footer = () => {
                             </h1>
                             <nav class="mb-10 list-none">
                                 <li>
-                                    <a class="text-sm text-gray-600 hover:text-gray-800">Home</a>
+                                    <Link href="/">
+                                        <a class="text-sm text-gray-600 hover:text-gray-800">Home</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-sm text-gray-600 hover:text-gray-800">Current Projects</a>
+                                    <Link href="/projects">
+                                        <a class="text-sm text-gray-600 hover:text-gray-800">Current Projects</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-sm text-gray-600 hover:text-gray-800">Roofing Service</a>
+                                    <Link href="/roofing">
+                                        <a class="text-sm text-gray-600 hover:text-gray-800">Roofing Service</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-sm text-gray-600 hover:text-gray-800">Portfolio</a>
+                                    <Link href="/projects">
+                                        <a class="text-sm text-gray-600 hover:text-gray-800">Portfolio</a>
+                                    </Link>
                                 </li>
                             </nav>
                         </div>
