@@ -352,7 +352,7 @@ export default function Res_Viewer() {
 
                                 <div class="">
                                     <p class="text-gray-900 font-semibold">Completion Year</p>
-                                    <p class="mt-1 text-gray-500">2022</p>
+                                    <p class="mt-1 text-gray-500">2023</p>
                                 </div>
 
                                 <div class="">
