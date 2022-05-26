@@ -1051,8 +1051,102 @@ export default function Res_Viewer() {
                                 src="img/Building_C_Floor_3_Plan.jpg"></img>
                         </div>
                     </div>
+                </section>
+            </div>
 
-                    
+            {/* Building D Floor plans*/}
+            <div>
+                <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
+                    <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
+                                <h1 class="flex justify-center items-center mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
+                                    Building D
+                                    <br></br>
+                                </h1>
+
+                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid */}
+                                    <div class="sm:block flex-col pl-4 justify-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline line-through"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline line-through"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                            </p>
+                                            
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline line-through"> Unit 103 - 1648 SF  </span> <span class="inline"> &nbsp;- Leased </span>
+                                            </p>
+                                        
+                                        </div>
+
+                                        
+
+                                    </div>
+                                    {/* Secound row of the grid */}
+                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline line-through"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline line-through"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <p class="flex mb-2 text-gray-600 px-4">
+                                                <span class="inline"> Unit 106 - 1565 SF </span> <span class="inline"> &nbsp; </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
+                        <div class="w-full h-full mb-4">
+                            <img class="object-cover object-center rounded max-h-fit" alt="hero"
+                                src="/img/Building_D_Floor_Plan.jpg"></img>
+                        </div>
+                        <div class="flex flex-col hidden items-start text-left w-80 lg:pl-12 md:pl-16 lg:block">
+                            <h1 class="mb-4 text-2xl font-bold tracking-tighter text-left text-black title-font">
+                                Building D
+                                <br></br>
+                            </h1>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp; </span>
+                            </p>
+                            
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp; </span>
+                            </p>
+
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 103 - 1648 SF </span> <span class="inline"> &nbsp; </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp; </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600 ">
+                                <span class="inline"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp; </span>
+                            </p>
+                            <p class="flex mb-2 text-gray-600">
+                                <span class="inline "> Unit 106 - 1565 SF </span> <span class="inline"> </span>
+                            </p>
+                        </div>
+                    </div>
 
                 </section>
             </div>
