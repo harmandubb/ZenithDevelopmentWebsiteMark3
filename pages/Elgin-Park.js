@@ -430,7 +430,7 @@ export default function Res_Viewer() {
                 </div>
             </div>
 
-            {/* Building C floor plans */}
+            {/* Building A floor plans */}
             <div>
                 <section class="text-gray-700 justify-center sm:justify-start pt-4 ">
                     <div class="lg:pl-12 md:pl-16 lg:hidden sm:block justify-center place-content-center">
@@ -657,13 +657,13 @@ export default function Res_Viewer() {
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline"> Unit 104 - 1109 SF </span> <span class="inline">  </span>
+                                                <span class="inline"> Unit 104 - 1171 SF </span> <span class="inline">  </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline"> Unit 105 - 1043 SF </span> <span class="inline">  </span>
+                                                <span class="inline"> Unit 105 - 1109 SF </span> <span class="inline">  </span>
                                             </p>
                                         </div>
 
@@ -748,7 +748,7 @@ export default function Res_Viewer() {
                                 <span class="inline"> Unit 103 - 1172 SF </span> <span class="inline"> </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 104 - 1172 SF </span> <span class="inline">  </span>
+                                <span class="inline"> Unit 104 - 1171 SF </span> <span class="inline">  </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 105 - 1109 SF </span> <span class="inline">  </span>
@@ -818,7 +818,7 @@ export default function Res_Viewer() {
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline "> Unit 203 - 853 SF  </span> <span class="inline"> </span>
+                                                <span class="inline "> Unit 203 - 953 SF  </span> <span class="inline"> </span>
                                             </p>
                                         
                                         </div>
@@ -915,7 +915,7 @@ export default function Res_Viewer() {
                             </p>
 
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 203 - 853 SF</span> <span class="inline"> </span>
+                                <span class="inline"> Unit 203 - 953 SF</span> <span class="inline"> </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 204 - 953 SF</span> <span class="inline">  </span>
@@ -1142,20 +1142,20 @@ export default function Res_Viewer() {
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 101 - 961 SF </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 102 - 749 SF </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                             
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 103 - 1648 SF  </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline"> Unit 103 - 536 SF  </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                         
                                         </div>
@@ -1168,19 +1168,19 @@ export default function Res_Viewer() {
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inline "> Unit 104 - 1139 SF </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline line-through"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp;- Leased </span>
+                                                <span class="inlineh"> Unit 105 - 773 SF </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                         </div>
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
-                                                <span class="inline"> Unit 106 - 1565 SF </span> <span class="inline"> &nbsp; </span>
+                                                <span class="inline"> Unit 106 - 742 SF </span> <span class="inline"> &nbsp; </span>
                                             </p>
                                         </div>
                                     </div>
@@ -1199,24 +1199,24 @@ export default function Res_Viewer() {
                             </h1>
 
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp; </span>
+                                <span class="inline"> Unit 101 - 961 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 102 - 1661 SF </span> <span class="inline"> &nbsp; </span>
+                                <span class="inline"> Unit 102 - 749 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
 
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 103 - 1648 SF </span> <span class="inline"> &nbsp; </span>
+                                <span class="inline"> Unit 103 - 536 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 104 - 1652 SF </span> <span class="inline"> &nbsp; </span>
+                                <span class="inline"> Unit 104 - 1139 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
-                                <span class="inline"> Unit 105 - 3256 SF </span> <span class="inline"> &nbsp; </span>
+                                <span class="inline"> Unit 105 - 773 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             <p class="flex mb-2 text-gray-600">
-                                <span class="inline "> Unit 106 - 1565 SF </span> <span class="inline"> </span>
+                                <span class="inline "> Unit 106 - 742 SF </span> <span class="inline"> </span>
                             </p>
                         </div>
                     </div>
