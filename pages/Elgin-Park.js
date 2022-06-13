@@ -429,6 +429,17 @@ export default function Res_Viewer() {
 
                 </div>
             </div>
+            
+            {/* Site Plan */}
+            <div class="w-full h-1/2 mb-4 px-8 2xl:px-40">
+                <h1 class="flex justify-center items-center mt-4 mb-4 text-2xl font-bold tracking-tighter sm:text-left text-black title-font">
+                    Elgin Park Site Layout
+                    <br></br>
+                </h1>
+
+                <img class="object-center rounded h-1/8" alt="Elgin Park Site Layout"
+                    src="/img/Elgin_Park_Site_Plan.jpg"></img>
+            </div>
 
             {/* Building A floor plans */}
             <div>
@@ -495,8 +506,8 @@ export default function Res_Viewer() {
 
                         </div>
 
-                        <div class="w-full h-full mb-4">
-                            <img class="object-cover object-center rounded max-h-fit" alt="hero"
+                        <div class="w-full h-full lg:w-fit lg:h-1/6 mb-4">
+                            <img class="object-cover object-center rounded max-h-fit lg:w-fit lg:h-1/6" alt="hero"
                                 src="/img/Building_A_Floor_Plan.jpg"></img>
                         </div>
                     </div>
