@@ -694,7 +694,7 @@ export default function Res_Viewer() {
                                     </div>
                                     
                                     {/* Secound row of the grid */}
-                                    <div class="sm:block flex-col pl-20 pr-0 sm:pl-0 sm:pr-4 place-items-center">
+                                    <div class="sm:block flex-col pl-20 pr-6 sm:pl-0 sm:pr-4 place-items-center">
 
                                     <div class="flex-1">
                                         <p class="flex mb-2 text-gray-600 px-4">
@@ -865,7 +865,7 @@ export default function Res_Viewer() {
                                     </div>
 
                                         {/* Secound row of the grid */}
-                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+                                    <div class="sm:block flex-col pl-14 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
@@ -1035,7 +1035,7 @@ export default function Res_Viewer() {
                                     </div>
 
                                         {/* Secound row of the grid */}
-                                    <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
+                                    <div class="sm:block flex-col pl-16 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
@@ -1149,7 +1149,7 @@ export default function Res_Viewer() {
 
                                 <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
                                     {/* First row of the grid */}
-                                    <div class="sm:block flex-col pl-4 justify-center">
+                                    <div class="sm:block flex-col pl-14 justify-center">
 
                                         <div class="flex-1">
                                             <p class="flex mb-2 text-gray-600 px-4">
