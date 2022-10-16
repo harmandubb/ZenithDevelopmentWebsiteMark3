@@ -242,7 +242,7 @@ export default function Res_Viewer() {
 
                         </div>
                     </div>
-                    <div class="absolute -top-24 right-0 flex flex-col bg-white font-semibold z-10 px-4">
+                    {/* <div class="absolute -top-24 right-0 flex flex-col bg-white font-semibold z-10 px-4">
                         <div class="md:block ml-2 pt-2 font-semibold text-gray-900 hover:text-gray-900 pr-2">
                             Set up a viewing:
                         </div>
@@ -253,7 +253,7 @@ export default function Res_Viewer() {
 
 
 
-                                <Link href="/pre-reg">
+                                {/* <Link href="/pre-reg">
                                     <button
                                         class="py-2 mb-2 px-1 w-full item-center rounded-lg font-semibold text-gray-900 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none">
                                         <a> Pre-register</a>
@@ -265,7 +265,7 @@ export default function Res_Viewer() {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
 
 
@@ -306,7 +306,7 @@ export default function Res_Viewer() {
                         </div>
                     </div>
 
-                    <div class="flex mt-2 ">
+                    {/* <div class="flex mt-2 ">
 
                         <div class="">
                             Set up a viewing:
@@ -321,7 +321,7 @@ export default function Res_Viewer() {
 
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
 
 
 
@@ -450,8 +450,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid
                                     <div class="sm:block flex-col pl-4 justify-center">
 
                                         <div class="flex-1">
@@ -468,7 +468,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                    {/* Secound row of the grid */}
+                                    {/* Secound row of the grid
                                     <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
 
                                     <div class="flex-1">
@@ -480,7 +480,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                </div>
+                                </div> */}
                                 
                     </div>
 
@@ -491,7 +491,7 @@ export default function Res_Viewer() {
                                 Building A
                                 <br></br>
                             </h1>
-
+{/* 
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 101 -  2867 SF </span> <span class="inline"> &nbsp; - Offer </span>
                             </p>
@@ -502,7 +502,7 @@ export default function Res_Viewer() {
 
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline font-bold"> NOTE: </span> <span class="inline"> The interior layout is subject to change based on tenant needs.</span>
-                            </p>
+                            </p> */}
 
                         </div>
 
@@ -523,8 +523,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid
                                     <div class="sm:block flex-col pl-4 justify-center">
 
                                         <div class="flex-1">
@@ -554,7 +554,7 @@ export default function Res_Viewer() {
                                         </div>
 
                                     </div>
-                                    {/* Secound row of the grid */}
+                                    {/* Secound row of the grid
                                     <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
@@ -586,7 +586,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                </div>
+                                </div> */}
                                 
                     </div>
 
@@ -601,7 +601,7 @@ export default function Res_Viewer() {
                                 <br></br>
                             </h1>
 
-                            <p class="flex mb-2 text-gray-600 ">
+                            {/* <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline line-through"> Unit 101 - 723 SF </span> <span class="inline"> &nbsp;- Leased </span>
                             </p>
                             
@@ -626,7 +626,7 @@ export default function Res_Viewer() {
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline line-through"> Unit 108 - 729 SF </span> <span class="inline"> &nbsp;- Leased </span>
-                            </p>
+                            </p> */}
                         </div>
                     </div>
 
@@ -642,8 +642,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid 
                                     <div class="sm:block flex-col pl-4 justify-center">
 
                                         <div class="flex-1">
@@ -693,7 +693,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                    {/* Secound row of the grid */}
+                                    {/* Secound row of the grid
                                     <div class="sm:block flex-col pl-20 pr-6 sm:pl-0 sm:pr-4 place-items-center">
 
                                     <div class="flex-1">
@@ -735,7 +735,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                </div>
+                                </div> */}
                                 
                     </div>
 
@@ -747,7 +747,7 @@ export default function Res_Viewer() {
                                 <br></br>
                             </h1>
 
-                            <p class="flex mb-2 text-gray-600 ">
+                            {/* <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 101 - 1264 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             
@@ -787,7 +787,7 @@ export default function Res_Viewer() {
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline line-through"> Unit 113 - 926 SF </span> <span class="inline"> &nbsp;- Leased </span>
-                            </p>
+                            </p> */}
                         </div>
 
                         <div class="w-full h-full mb-4">
@@ -810,8 +810,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid 
                                     <div class="sm:block flex-col pl-4 justify-center">
 
                                         <div class="flex-1">
@@ -864,7 +864,7 @@ export default function Res_Viewer() {
 
                                     </div>
 
-                                        {/* Secound row of the grid */}
+                                        {/* Secound row of the grid
                                     <div class="sm:block flex-col pl-14 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
@@ -905,7 +905,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                </div>
+                                </div> */}
                                 
                     </div>
 
@@ -917,7 +917,7 @@ export default function Res_Viewer() {
                                 <br></br>
                             </h1>
 
-                            <p class="flex mb-2 text-gray-600 ">
+                            {/* <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 201 - 1169 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             
@@ -957,7 +957,7 @@ export default function Res_Viewer() {
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 213 - 1384 SF </span> <span class="inline"> &nbsp; </span>
-                            </p>
+                            </p> */}
                         </div>
 
                         <div class="w-full h-full mb-4">
@@ -980,8 +980,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid 
                                     <div class="sm:block flex-col pl-20 sm:pl-4 justify-center">
 
                                         <div class="flex-1">
@@ -1034,7 +1034,7 @@ export default function Res_Viewer() {
 
                                     </div>
 
-                                        {/* Secound row of the grid */}
+                                        {/* Secound row of the grid 
                                     <div class="sm:block flex-col pl-16 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
@@ -1075,7 +1075,7 @@ export default function Res_Viewer() {
 
                                     </div>
                                     
-                                </div>
+                                </div> */}
                                 
                     </div>
 
@@ -1087,7 +1087,7 @@ export default function Res_Viewer() {
                                 <br></br>
                             </h1>
 
-                            <p class="flex mb-2 text-gray-600 ">
+                            {/* <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 301 - 1169 SF </span> <span class="inline"> &nbsp; </span>
                             </p>
                             
@@ -1127,7 +1127,7 @@ export default function Res_Viewer() {
                             </p>
                             <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 313 - 1385 SF </span> <span class="inline"> &nbsp;- Offer</span>
-                            </p>
+                            </p> */}
                         </div>
 
                         <div class="w-full h-full mb-4">
@@ -1147,8 +1147,8 @@ export default function Res_Viewer() {
                                     <br></br>
                                 </h1>
 
-                                <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
-                                    {/* First row of the grid */}
+                                {/* <div class="grid gap-0 sm:gap-4 grid-cols-1 sm:grid-cols-2 justify-center place-items-center">
+                                    {/* First row of the grid
                                     <div class="sm:block flex-col pl-14 justify-center">
 
                                         <div class="flex-1">
@@ -1174,7 +1174,7 @@ export default function Res_Viewer() {
                                         
 
                                     </div>
-                                    {/* Secound row of the grid */}
+                                    {/* Secound row of the grid
                                     <div class="sm:block flex-col pl-4 sm:pl-0 sm:pr-4 place-items-center">
 
                                         <div class="flex-1">
@@ -1195,7 +1195,7 @@ export default function Res_Viewer() {
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                     </div>
 
                     <div class="container flex flex-col items-start md:py-8 pb-4 mx-auto lg:items-center md:flex-row lg:px-8">
@@ -1209,7 +1209,7 @@ export default function Res_Viewer() {
                                 <br></br>
                             </h1>
 
-                            <p class="flex mb-2 text-gray-600 ">
+                            {/* <p class="flex mb-2 text-gray-600 ">
                                 <span class="inline"> Unit 101 - 961 SF </span> <span class="inline"> &nbsp;- Offer</span>
                             </p>
                             
@@ -1228,7 +1228,7 @@ export default function Res_Viewer() {
                             </p>
                             <p class="flex mb-2 text-gray-600">
                                 <span class="inline "> Unit 106 - 742 SF </span> <span class="inline"> </span>
-                            </p>
+                            </p> */}
                         </div>
                     </div>
 

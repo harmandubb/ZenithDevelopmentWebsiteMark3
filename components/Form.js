@@ -83,9 +83,9 @@ const Form = () => {
                                     <select id="Project" name="Project"
                                         class="block w-full px-4 py-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                                         <option disabled="disabled">Select an Option</option>
-                                        <option value="Elgin Park">Elgin Park</option>
-                                        <option value="King George">King George</option>
-                                        <option value="North Vancouver">North Vancouver</option>
+                                        {/* <option value="Elgin Park">Elgin Park</option> */}
+                                        <option value="King George">Crest Lane</option>
+                                        {/* <option value="North Vancouver">North Vancouver</option> */}
                                     </select>
 
                                 </div>
